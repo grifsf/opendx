@@ -1,0 +1,1653 @@
+local.mk:2: warning: ignoring prerequisites on suffix rule definition
+local.mk:6: warning: ignoring prerequisites on suffix rule definition
+make[3]: Warning: File 'buffer.c' has modification time 133 s in the future
+local.mk:2: warning: ignoring prerequisites on suffix rule definition
+local.mk:6: warning: ignoring prerequisites on suffix rule definition
+make[4]: Warning: File 'libDXlite.la' has modification time 161 s in the future
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Warning: File 'libDXMODS.la' has modification time 345 s in the future
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Warning: File 'libOPENGL.la' has modification time 353 s in the future
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Warning: File 'libHW.la' has modification time 368 s in the future
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Warning: File 'libDPEXEC.la' has modification time 389 s in the future
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Warning: File 'libDXEXEC.la' has modification time 390 s in the future
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Warning: File 'libDX.la' has modification time 402 s in the future
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Warning: File 'gifmac.h' has modification time 407 s in the future
+make[4]: Warning: File 'oem.o' has modification time 408 s in the future
+In file included from ConfigurationDialog.h:21,
+                 from EditorWindow.C:51:
+./../base/InfoDialogManager.h:65:23: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   65 |         char *title = "Information",
+      |                       ^~~~~~~~~~~~~
+In file included from EditorWindow.C:55:
+./../base/ErrorDialogManager.h: In member function ‘virtual void ErrorDialogManager::post(Widget, char*, char*, void*, DialogCallback, DialogCallback, DialogCallback, char*, char*, char*, int)’:
+./../base/ErrorDialogManager.h:73:45: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   73 |  this->DialogManager::post(parent, message, "Error");
+      |                                             ^~~~~~~
+In file included from EditorWindow.C:141:
+EWDefaultResources.h: At global scope:
+EWDefaultResources.h:16:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   16 |     ".title:                                      Visual Program Editor",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:17:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   17 |     ".iconName:                                   VPE",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:18:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   18 |     ".minWidth:                                   480",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:19:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   19 |     ".minHeight:                                  400",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:20:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   20 |     "*workArea.width:                             850",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:21:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   21 |     "*workArea.height:                            650",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:22:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   22 |     "*notebook.width:      180",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:23:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   23 |     "*scrolledWindow*XmScrollBar.initialDelay:    2000",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:24:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   24 |     "*scrolledWindow*XmScrollBar.repeatDelay:     2000",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:26:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   26 |     "*fileMenu.labelString:                       File",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:27:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   27 |     "*fileMenu.mnemonic:                          F",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:28:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   28 |     "*vpeNewOption.labelString:                   New",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:29:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   29 |     "*vpeNewOption.mnemonic:                      N",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:30:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   30 |     "*vpeOpenOption.labelString:                  Open Program...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:31:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   31 |     "*vpeOpenOption.mnemonic:                     O",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:32:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   32 |     "*vpeSaveOption.labelString:                  Save Program",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:33:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   33 |     "*vpeSaveOption.mnemonic:                     S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:34:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   34 |     "*vpeSaveOption.accelerator:                  Ctrl<Key>S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:35:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   35 |     "*vpeSaveOption.acceleratorText:              Ctrl+S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:36:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   36 |     "*vpeSaveMacroOption.labelString:                  Save Macro",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:37:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   37 |     "*vpeSaveMacroOption.mnemonic:                     S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:38:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   38 |     "*vpeSaveMacroOption.accelerator:                  Ctrl<Key>S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:39:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   39 |     "*vpeSaveMacroOption.acceleratorText:              Ctrl+S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:40:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   40 |     "*vpeSaveAsOption.labelString:                Save Program As...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:41:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   41 |     "*vpeSaveMacroAsOption.labelString:                Save Macro As...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:42:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   42 |     "*vpeSettingsCascade.labelString:     Program Settings",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:43:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   43 |     "*vpeSettingsCascade.mnemonic:     r",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:44:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   44 |     "*vpeSaveCfgOption.labelString:               Save As...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:45:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   45 |     "*vpeSaveCfgOption.mnemonic:                  S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:46:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   46 |     "*vpeOpenCfgOption.labelString:               Load...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:47:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   47 |     "*vpeOpenCfgOption.mnemonic:                  L",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:48:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   48 |     "*vpeSaveAsOption.mnemonic:                   a",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:49:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   49 |     "*vpePrintProgramOption.labelString:          Print Program...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:50:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   50 |     "*vpePrintProgramOption.mnemonic:             P",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:51:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   51 |     "*vpeLoadMDFOption.labelString:              Load Module Description(s)...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:52:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   52 |     "*vpeLoadMDFOption.mnemonic:                  M",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:53:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   53 |     "*vpeLoadMacroOption.labelString:             Load Macro...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:54:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   54 |     "*vpeLoadMacroOption.mnemonic:                L",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:59:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   59 |     "*vpeCloseOption.labelString:                 Close",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:60:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   60 |     "*vpeCloseOption.mnemonic:                    C",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:61:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   61 |     "*vpeCloseOption.accelerator:                 Ctrl<Key>Q",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:62:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   62 |     "*vpeCloseOption.acceleratorText:             Ctrl+Q",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:64:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   64 |     "*editMenu.labelString:                       Edit",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:65:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   65 |     "*editMenu.mnemonic:                          E",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:66:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   66 |     "*vpeUndoOption.labelString:                  Undo",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:67:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   67 |     "*vpeUndoOption.accelerator:                  Ctrl<Key>U",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:68:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   68 |     "*vpeUndoOption.acceleratorText:              Ctrl+U",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:69:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   69 |     "*vpeValuesOption.labelString:                Configuration...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:70:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   70 |     "*vpeValuesOption.mnemonic:                   C",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:71:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   71 |     "*vpeValuesOption.accelerator:                Ctrl<Key>F",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:72:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   72 |     "*vpeValuesOption.acceleratorText:            Ctrl+F",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:73:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   73 |     "*vpeFindToolOption.labelString:              Find Tool...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:74:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   74 |     "*vpeFindToolOption.mnemonic:                 F",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:75:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   75 |     "*vpeEditTabsCascade.labelString:     Input/Output Tabs",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:76:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   76 |     "*vpeEditTabsCascade.mnemonic:     T",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:77:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   77 |     "*vpeAddInputTabOption.labelString:              Add Input Tab",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:78:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   78 |     "*vpeAddInputTabOption.mnemonic:                 A",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:79:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   79 |     "*vpeAddInputTabOption.accelerator:              Ctrl<Key>A",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:80:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   80 |     "*vpeAddInputTabOption.acceleratorText:          Ctrl+A",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:81:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   81 |     "*vpeRemoveInputTabOption.labelString:           Remove Input Tab",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:82:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   82 |     "*vpeRemoveInputTabOption.mnemonic:              R",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:83:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   83 |     "*vpeRemoveInputTabOption.accelerator:           Ctrl<Key>R",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:84:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   84 |     "*vpeRemoveInputTabOption.acceleratorText:       Ctrl+R",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:85:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   85 |     "*vpeAddOutputTabOption.labelString:             Add Output Tab",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:86:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   86 |     "*vpeAddOutputTabOption.mnemonic:                O",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:87:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   87 |     "*vpeRemoveOutputTabOption.labelString:          Remove Output Tab",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:88:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   88 |     "*vpeRemoveOutputTabOption.mnemonic:             T",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:89:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   89 |     "*vpeHideAllTabsOption.labelString:              Hide All Tabs",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:90:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   90 |     "*vpeHideAllTabsOption.mnemonic:                 H",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:91:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   91 |     "*vpeHideAllTabsOption.accelerator:              Ctrl<Key>H",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:92:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   92 |     "*vpeHideAllTabsOption.acceleratorText:          Ctrl+H",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:93:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   93 |     "*vpeRevealAllTabsOption.labelString:            Reveal All Tabs",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:94:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   94 |     "*vpeRevealAllTabsOption.mnemonic:               L",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:95:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   95 |     "*vpeRevealAllTabsOption.accelerator:            Ctrl<Key>L",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:96:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   96 |     "*vpeRevealAllTabsOption.acceleratorText:        Ctrl+L",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:97:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   97 |     "*vpeEditSelectCascade.labelString:    Select/Deselect Tools",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:98:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   98 |     "*vpeEditSelectCascade.mnemonic:    S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:101:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  101 |     "*programVerifyCascade.labelString:    Assign Get/Set Scope",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:102:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  102 |     "*programVerifyCascade.mnemonic:    V",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:103:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  103 |     "*getSetConversion.labelString:    Convert All Modules...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:104:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  104 |     "*getSetConversion.mnemonic:    C",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:105:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  105 |     "*setToGlobal.labelString:          Set Selected Gets/Sets Global",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:106:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  106 |     "*setToGlobal.mnemonic:          G",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:107:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  107 |     "*setToLocal.labelString:            Set Selected Gets/Sets Local",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:108:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  108 |     "*setToLocal.mnemonic:            L",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:111:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  111 |     "*vpeSelectAllOption.labelString:                Select All",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:112:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  112 |     "*vpeSelectAllOption.mnemonic:                   S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:113:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  113 |     "*vpeSelectConnectedOption.labelString:          Select Connected",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:114:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  114 |     "*vpeSelectConnectedOption.mnemonic:             C",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:115:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  115 |     "*vpeSelectUnconnectedOption.labelString:        Select Unconnected",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:116:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  116 |     "*vpeSelectUnconnectedOption.mnemonic:           U",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:117:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  117 |     "*vpeSelectUpwardOption.labelString:             Select Upward",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:118:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  118 |     "*vpeSelectUpwardOption.mnemonic:                p",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:119:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  119 |     "*vpeSelectDownwardOption.labelString:           Select Downward",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:120:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  120 |     "*vpeSelectDownwardOption.mnemonic:              D",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:121:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  121 |     "*vpeDeselectAllOption.labelString:              Deselect All",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:122:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  122 |     "*vpeDeselectAllOption.mnemonic:                 e",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:123:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  123 |     "*vpeSelectUnselectedOption.labelString:         Select Unselected",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:124:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  124 |     "*vpeSelectUnselectedOption.mnemonic:            n",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:126:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  126 |     "*vpeOutputCacheabilityCascade.labelString:      Output Cacheability",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:127:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  127 |     "*vpeOutputCacheabilityCascade.mnemonic:         u",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:128:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  128 |     "*vpeOptimizeCacheability.labelString:           Optimize Cacheability",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:129:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  129 |     "*vpeOptimizeCacheability.mnemonic:              O",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:130:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  130 |     "*vpeEditOutputCacheabilityCascade.labelString:  Set Output Cacheability",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:131:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  131 |     "*vpeEditOutputCacheabilityCascade.mnemonic:     S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:132:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  132 |     "*vpeCacheAllOutputsOption.labelString:          Cache All Results",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:133:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  133 |     "*vpeCacheAllOutputsOption.mnemonic:             A",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:134:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  134 |     "*vpeCacheLastOutputsOption.labelString:         Cache Last Result",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:135:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  135 |     "*vpeCacheLastOutputsOption.mnemonic:            L",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:136:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  136 |     "*vpeCacheNoOutputsOption.labelString:           Cache No Results",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:137:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  137 |     "*vpeCacheNoOutputsOption.mnemonic:              N",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:138:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  138 |     "*vpeShowOutputCacheabilityCascade.labelString:  Show Output Cacheability",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:139:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  139 |     "*vpeShowOutputCacheabilityCascade.mnemonic:     h",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:140:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  140 |     "*vpeShowCacheAllOutputsOption.labelString:      All Results",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:141:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  141 |     "*vpeShowCacheAllOutputsOption.mnemonic:         A",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:142:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  142 |     "*vpeShowCacheLastOutputsOption.labelString:     Last Result",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:143:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  143 |     "*vpeShowCacheLastOutputsOption.mnemonic:        L",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:144:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  144 |     "*vpeShowCacheNoOutputsOption.labelString:       No Results",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:145:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  145 |     "*vpeShowCacheNoOutputsOption.mnemonic:          N",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:147:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  147 |     "*vpeCutOption.labelString:                      Cut",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:148:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  148 |     "*vpeCutOption.mnemonic:                         t",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:149:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  149 |     "*vpeCutOption.acceleratorText:                  Delete",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:150:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  150 |     "*vpeCutOption.accelerator:                      <Key>osfDelete",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:152:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  152 |     "*vpeCopyOption.labelString:                     Copy",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:153:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  153 |     "*vpeCopyOption.mnemonic:                        p",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:154:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  154 |     "*vpeCopyOption.acceleratorText:                 Shift+Delete",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:155:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  155 |     "*vpeCopyOption.accelerator:                     Shift<Key>osfDelete",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:157:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  157 |     "*vpePasteOption.labelString:                    Paste",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:158:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  158 |     "*vpePasteOption.mnemonic:                       e",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:159:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  159 |     "*vpePasteOption.acceleratorText:                Shift+Ins",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:160:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  160 |     "*vpePasteOption.accelerator:                    Shift<Key>osfInsert",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:162:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  162 |     "*vpeDeleteOption.labelString:                   Delete",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:163:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  163 |     "*vpeDeleteOption.mnemonic:                      D",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:164:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  164 |     "*vpeDeleteOption.acceleratorText:               Ctrl+Delete",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:165:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  165 |     "*vpeDeleteOption.accelerator:                   Ctrl<Key>osfDelete",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:174:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  174 |     "*vpeAddDecorator.labelString:                Add Annotation",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:175:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  175 |     "*vpeAddDecorator.mnemonic:                   T",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:177:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  177 |     "*vpeInsertNetOption.labelString:             Insert Visual Program...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:178:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  178 |     "*vpeInsertNetOption.mnemonic:                I",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:179:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  179 |     "*vpeCreateMacroOption.labelString:           Create Macro...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:180:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  180 |     "*vpeCreateMacroOption.mnemonic:              M",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:181:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  181 |     "*vpePageCascade.labelString:                 Page",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:182:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  182 |     "*vpeCreatePageOption.labelString:            Create Empty Page",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:183:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  183 |     "*vpeCreatePageOption.mnemonic:               E",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:184:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  184 |     "*vpeSelectedPageOption.labelString:          Create with Selected Tools",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:185:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  185 |     "*vpeSelectedPageOption.mnemonic:             C",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:186:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  186 |     "*vpeMoveToPageOption.labelString:            Move Selected Tools...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:187:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  187 |     "*vpeMoveToPageOption.mnemonic:               M",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:188:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  188 |     "*vpeChopPageOption.labelString:             Separate Selected Tools",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:189:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  189 |     "*vpeChopPageOption.mnemonic:             S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:190:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  190 |     "*vpeFusePageOption.labelString:             Reconnect Selected Tools",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:191:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  191 |     "*vpeFusePageOption.mnemonic:             R",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:192:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  192 |     "*vpeDeletePageOption.labelString:            Delete Page",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:193:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  193 |     "*vpeDeletePageOption.mnemonic:               D",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:194:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  194 |     "*vpeConfigurePageOption.labelString:         Configure Page...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:195:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  195 |     "*vpeConfigurePageOption.mnemonic:            f",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:196:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  196 |     "*vpeJavaCascade.labelString:                 Java",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:197:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  197 |     "*vpeJavifyNetOption.labelString:             Add Tools",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:198:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  198 |     "*vpeUnjavifyNetOption.labelString:           Remove Tools",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:199:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  199 |     "*vpeSaveWebPageOption.labelString:           Save As Web Page",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:200:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  200 |     "*vpeSaveAppletOption.labelString:            Net to Applet",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:201:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  201 |     "*vpeSaveBeanOption.labelString:              Net to Bean",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:202:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  202 |     "*vpeReflowGraphOption.labelString:           Layout Graph",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:203:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  203 |     "*vpeReflowGraphOption.mnemonic:              u",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:204:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  204 |     "*vpeReflowGraphOption.accelerator:           Ctrl<Key>K",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:205:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  205 |     "*vpeReflowGraphOption.acceleratorText:       Ctrl+K",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:206:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  206 |     "*vpeStraightenArcsOption.labelString:        Tidy Up the Arcs",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:207:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  207 |     "*vpeStraightenArcsOption.mnemonic:           y",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:208:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  208 |     "*vpeMacroNameOption.labelString:             Macro Name...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:209:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  209 |     "*vpeMacroNameOption.mnemonic:                N",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:210:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  210 |     "*vpeCreateProcessGroupOption.labelString:    Execution Groups...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:211:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  211 |     "*vpeCreateProcessGroupOption.mnemonic:       G",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:212:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  212 |     "*vpeCommentOption.labelString:               Comment...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:213:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  213 |     "*vpeCommentOption.mnemonic:                  o",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:215:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  215 |     "*windowsMenu.labelString:                    Windows",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:216:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  216 |     "*windowsMenu.mnemonic:                       W",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:217:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  217 |     "*vpeNewControlPanelOption.labelString:        New Control Panel",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:218:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  218 |     "*vpeNewControlPanelOption.mnemonic:           P",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:219:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  219 |     "*vpeOpenControlPanelOption.labelString:  Open Selected Control Panel(s)",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:220:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  220 |     "*vpeOpenControlPanelOption.mnemonic:          S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:221:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  221 |     "*vpeOpenAllControlPanelsOption.labelString:   Open All Control Panels",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:222:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  222 |     "*vpeOpenAllControlPanelsOption.mnemonic:      A",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:223:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  223 |     "*vpeOpenAllControlPanelsOption.accelerator:   Ctrl<Key>P",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:224:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  224 |     "*vpeOpenAllControlPanelsOption.acceleratorText: Ctrl+P",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:225:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  225 |     "*vpePanelCascade.labelString:                 Open Control Panel by Name",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:226:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  226 |     "*vpePanelCascade.mnemonic:                    N",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:227:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  227 |     "*vpePanelGroupCascade.labelString:            Open Control Panel by Group",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:228:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  228 |     "*vpePanelGroupCascade.mnemonic:               G",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:229:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  229 |     "*vpeOpenMacroOption.labelString:              Open Selected Macro(s)",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:230:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  230 |     "*vpeOpenMacroOption.mnemonic:                 M",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:231:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  231 |     "*vpeOpenImageOption.labelString:             Open Selected Image Window(s)",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:232:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  232 |     "*vpeOpenImageOption.mnemonic:                 I",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:233:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  233 |     "*vpeOpenColormapEditorOption.labelString:Open Selected Colormap Editor(s)",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:234:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  234 |     "*vpeOpenColormapEditorOption.mnemonic:        C",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:235:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  235 |     "*vpeOpenColormapEditorOption.accelerator:     Ctrl<Key>E",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:236:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  236 |     "*vpeOpenColormapEditorOption.acceleratorText: Ctrl+E",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:237:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  237 |     "*vpeMessageWindowOption.labelString:          Open Message Window",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:238:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  238 |     "*vpeMessageWindowOption.mnemonic:             e",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:240:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  240 |     "*optionsMenu.labelString:                    Options",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:241:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  241 |     "*optionsMenu.mnemonic:                       O",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:242:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  242 |     "*vpeToolPalettesOption.labelString:          Tool Palettes",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:243:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  243 |     "*vpeToolPalettesOption.mnemonic:             T",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:244:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  244 |     "*vpeToolPalettesOption.accelerator:          Ctrl<Key>T",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:245:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  245 |     "*vpeToolPalettesOption.acceleratorText:      Ctrl+T",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:246:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  246 |     "*vpeHitDetectionOption.labelString:          Prevent Overlap",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:247:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  247 |     "*vpeHitDetectionOption.mnemonic:             v",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:248:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  248 |     "*vpeHitDetectionOption.accelerator:          Ctrl<Key>V",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:249:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  249 |     "*vpeHitDetectionOption.acceleratorText:      Ctrl+V",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:250:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  250 |     "*vpePanelAccessOption.labelString:           Control Panel Access...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:251:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  251 |     "*vpePanelAccessOption.mnemonic:              A",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:252:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  252 |     "*vpePanelGroupOption.labelString:            Control Panel Groups...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:253:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  253 |     "*vpePanelGroupOption.mnemonic:               P",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:254:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  254 |     "*vpeShowExecutedOption.labelString:   Select Executed",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:255:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  255 |     "*vpeShowExecutedOption.mnemonic:    S",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:256:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  256 |     "*vpeGridOption.labelString:                  Grid...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:257:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  257 |     "*vpeGridOption.mnemonic:                     G",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:259:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  259 |     "*fileMenuPulldown.tearOffModel:    XmTEAR_OFF_DISABLED",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:260:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  260 |     "*editMenuPulldown.tearOffModel:    XmTEAR_OFF_DISABLED",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:261:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  261 |     "*windowsMenuPulldown.tearOffModel:    XmTEAR_OFF_DISABLED",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:263:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  263 |     "*vpeOnVisualProgramOption.labelString:       Application Comment...",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:264:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  264 |     "*vpeOnVisualProgramOption.mnemonic:          A",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:266:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  266 |     "*workAreaFrame*traversalOn:                  false",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:267:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  267 |     "*workAreaFrame*XmWorkspace*traversalOn:      true",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:269:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  269 |     ".mainWindow.commandWindowLocation: XmCOMMAND_ABOVE_WORKSPACE",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EWDefaultResources.h:270:5: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  270 |     ".mainWindow.packing:   XmPACK_NONE",
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C: In member function ‘virtual void EditorWindow::createFileMenu(Widget)’:
+EditorWindow.C:1439:35: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1439 |      XmCreatePulldownMenu(parent, "fileMenuPulldown", NUL(ArgList), 0);
+      |                                   ^~~~~~~~~~~~~~~~~~
+EditorWindow.C:1450:8: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1450 |        "vpeNewOption",
+      |        ^~~~~~~~~~~~~~
+EditorWindow.C:1455:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1455 |                             "vpeOpenOption", theDXApplication->openFileCmd);
+      |                             ^~~~~~~~~~~~~~~
+EditorWindow.C:1461:55: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1461 |      this->saveOption = new ButtonInterface(pulldown, "vpeSaveOption", cmd);
+      |                                                       ^~~~~~~~~~~~~~~
+EditorWindow.C:1463:55: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1463 |      this->saveOption = new ButtonInterface(pulldown, "vpeSaveMacroOption", cmd);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1469:7: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1469 |       "vpeSaveAsOption", cmd);
+      |       ^~~~~~~~~~~~~~~~~
+EditorWindow.C:1472:7: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1472 |       "vpeSaveMacroAsOption", cmd);
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1479:49: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1479 |         this->settingsCascade = new CascadeMenu("vpeSettingsCascade",pulldown);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1482:7: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1482 |       "vpeSaveCfgOption", saveCfgCmd);
+      |       ^~~~~~~~~~~~~~~~~~
+EditorWindow.C:1484:7: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1484 |       "vpeOpenCfgOption", openCfgCmd);
+      |       ^~~~~~~~~~~~~~~~~~
+EditorWindow.C:1487:7: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1487 |       "vpeOpenCfgOption", openCfgCmd);
+      |       ^~~~~~~~~~~~~~~~~~
+EditorWindow.C:1490:7: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1490 |       "vpeSaveCfgOption", saveCfgCmd);
+      |       ^~~~~~~~~~~~~~~~~~
+EditorWindow.C:1499:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1499 |                             "vpeLoadMacroOption", theDXApplication->loadMacroCmd);
+      |                             ^~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1502:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1502 |                             "vpeLoadMDFOption", theDXApplication->loadMDFCmd);
+      |                             ^~~~~~~~~~~~~~~~~~
+EditorWindow.C:1508:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1508 |                                              "vpePrintProgramOption",
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1512:46: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1512 |                                              "vpeSaveAsCCodeOption",
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1519:34: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1519 |     new ButtonInterface(pulldown,"quitOption",theDXApplication->exitCmd);
+      |                                  ^~~~~~~~~~~~
+EditorWindow.C:1522:34: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1522 |     new ButtonInterface(pulldown,"vpeCloseOption",this->closeCmd);
+      |                                  ^~~~~~~~~~~~~~~~
+EditorWindow.C: In member function ‘virtual void EditorWindow::createEditMenu(Widget)’:
+EditorWindow.C:1545:35: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1545 |      XmCreatePulldownMenu(parent, "editMenuPulldown", NUL(ArgList), 0);
+      |                                   ^~~~~~~~~~~~~~~~~~
+EditorWindow.C:1554:55: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1554 |     this->undoOption = new ButtonInterface (pulldown, "vpeUndoOption", this->undoCmd);
+      |                                                       ^~~~~~~~~~~~~~~
+EditorWindow.C:1561:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1561 |  new ButtonInterface(pulldown, "vpeValuesOption", this->valuesCmd);
+      |                                ^~~~~~~~~~~~~~~~~
+EditorWindow.C:1564:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1564 |  new ButtonInterface(pulldown, "vpeFindToolOption", this->findToolCmd);
+      |                                ^~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1575:19: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1575 |   new CascadeMenu("vpeEditTabsCascade",pulldown);
+      |                   ^~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1579:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1579 |     this->addInputTabOption = new ButtonInterface(menu_parent, "vpeAddInputTabOption",
+      |                                                                ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1583:67: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1583 |     this->removeInputTabOption = new ButtonInterface(menu_parent, "vpeRemoveInputTabOption",
+      |                                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1586:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1586 |     ci = new ButtonInterface(menu_parent, "vpeAddOutputTabOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1590:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1590 |     ci = new ButtonInterface(menu_parent, "vpeRemoveOutputTabOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1594:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1594 |     ci = new ButtonInterface(menu_parent, "vpeRevealAllTabsOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1598:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1598 |     ci = new ButtonInterface(menu_parent, "vpeHideAllTabsOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1607:19: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1607 |   new CascadeMenu("programVerifyCascade",pulldown);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1610:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1610 |     ci = new ButtonInterface (menu_parent, "getSetConversion", this->postGetSetCmd);
+      |                                            ^~~~~~~~~~~~~~~~~~
+EditorWindow.C:1613:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1613 |     ci = new ButtonInterface (menu_parent, "setToLocal", this->toLocalCmd);
+      |                                            ^~~~~~~~~~~~
+EditorWindow.C:1616:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1616 |     ci = new ButtonInterface (menu_parent, "setToGlobal", this->toGlobalCmd);
+      |                                            ^~~~~~~~~~~~~
+EditorWindow.C:1629:36: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1629 |     cascade_menu = new CascadeMenu("vpeEditSelectCascade",pulldown);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1632:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1632 |     ci = new ButtonInterface(menu_parent, "vpeSelectAllOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1636:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1636 |     ci = new ButtonInterface(menu_parent, "vpeSelectConnectedOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1640:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1640 |     ci = new ButtonInterface(menu_parent, "vpeSelectUnconnectedOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1644:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1644 |     ci = new ButtonInterface(menu_parent, "vpeSelectUpwardOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1648:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1648 |     ci = new ButtonInterface(menu_parent, "vpeSelectDownwardOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1652:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1652 |     ci = new ButtonInterface(menu_parent, "vpeDeselectAllOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1656:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1656 |     ci = new ButtonInterface(menu_parent, "vpeSelectUnselectedOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1660:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1660 |     ci = new ButtonInterface (menu_parent, "vpeShowExecutedOption",
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1668:36: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1668 |     cascade_menu = new CascadeMenu("vpeOutputCacheabilityCascade",pulldown);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1671:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1671 |     ci =  new ButtonInterface(menu_parent, "vpeOptimizeCacheability",
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1677:36: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1677 |     cascade_menu = new CascadeMenu("vpeEditOutputCacheabilityCascade",
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1681:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1681 |     ci = new ButtonInterface(menu_parent, "vpeCacheAllOutputsOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1685:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1685 |     ci = new ButtonInterface(menu_parent, "vpeCacheLastOutputsOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1689:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1689 |     ci = new ButtonInterface(menu_parent, "vpeCacheNoOutputsOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1694:36: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1694 |     cascade_menu = new CascadeMenu("vpeShowOutputCacheabilityCascade",
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1699:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1699 |     ci = new ButtonInterface(menu_parent, "vpeShowCacheAllOutputsOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1703:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1703 |     ci = new ButtonInterface(menu_parent, "vpeShowCacheLastOutputsOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1707:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1707 |     ci = new ButtonInterface(menu_parent, "vpeShowCacheNoOutputsOption",
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1717:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1717 |  new ButtonInterface(pulldown, "vpeDeleteOption", this->deleteNodeCmd);
+      |                                ^~~~~~~~~~~~~~~~~
+EditorWindow.C:1723:36: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1723 |      new ButtonInterface(pulldown, "vpeCopyOption", this->copyNodeCmd);
+      |                                    ^~~~~~~~~~~~~~~
+EditorWindow.C:1726:36: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1726 |      new ButtonInterface(pulldown, "vpeCutOption", this->cutNodeCmd);
+      |                                    ^~~~~~~~~~~~~~
+EditorWindow.C:1729:36: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1729 |      new ButtonInterface(pulldown, "vpePasteOption", this->pasteNodeCmd);
+      |                                    ^~~~~~~~~~~~~~~~
+EditorWindow.C:1738:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1738 |     this->addAnnotationOption = new ButtonInterface(pulldown, "vpeAddDecorator",
+      |                                                               ^~~~~~~~~~~~~~~~~
+EditorWindow.C:1745:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1745 |  new ButtonInterface(pulldown, "vpeInsertNetOption",
+      |                                ^~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1749:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1749 |  new ButtonInterface(pulldown, "vpeCreateMacroOption",
+      |                                ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1753:56: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1753 |     this->pageCascade = cascade_menu = new CascadeMenu("vpePageCascade", pulldown);
+      |                                                        ^~~~~~~~~~~~~~~~
+EditorWindow.C:1756:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1756 |     ci = new ButtonInterface(menu_parent, "vpeCreatePageOption", this->pagifyCmd);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1759:41: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1759 |     ci=new ButtonInterface(menu_parent, "vpeSelectedPageOption", this->pagifySelectedCmd);
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1762:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1762 |     ci = new ButtonInterface(menu_parent, "vpeDeletePageOption", this->deletePageCmd);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1767:41: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1767 |     ci=new ButtonInterface(menu_parent, "vpeChopPageOption", this->autoChopSelectedCmd);
+      |                                         ^~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1770:41: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1770 |     ci=new ButtonInterface(menu_parent, "vpeFusePageOption", this->autoFuseSelectedCmd);
+      |                                         ^~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1775:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1775 |     ci = new ButtonInterface(menu_parent,"vpeConfigurePageOption",this->configurePageCmd);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1778:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1778 |     ci = new ButtonInterface(menu_parent, "vpeMoveToPageOption", this->moveSelectedCmd);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1783:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1783 |  this->javaCascade = cascade_menu = new CascadeMenu("vpeJavaCascade", pulldown);
+      |                                                     ^~~~~~~~~~~~~~~~
+EditorWindow.C:1787:6: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1787 |      "vpeJavifyNetOption", this->javifyNetCmd);
+      |      ^~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1791:6: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1791 |      "vpeUnjavifyNetOption", this->unjavifyNetCmd);
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1799:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1799 |      ci = new ButtonInterface(menu_parent, "vpeSaveWebPageOption", cmd);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1805:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1805 |      ci = new ButtonInterface(menu_parent, "vpeSaveAppletOption", cmd);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1811:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1811 |      ci = new ButtonInterface(menu_parent, "vpeSaveBeanOption", cmd);
+      |                                            ^~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1818:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1818 |  new ButtonInterface(pulldown, "vpeMacroNameOption",
+      |                                ^~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1822:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1822 |  new ButtonInterface(pulldown, "vpeReflowGraphOption",
+      |                                ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1826:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1826 |  new ButtonInterface(pulldown, "vpeCreateProcessGroupOption",
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1830:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1830 |  new ButtonInterface(pulldown, "vpeCommentOption", this->editCommentCmd);
+      |                                ^~~~~~~~~~~~~~~~~~
+EditorWindow.C: In member function ‘virtual void EditorWindow::createWindowsMenu(Widget)’:
+EditorWindow.C:1851:12: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1851 |   (parent, "windowsMenuPulldown", NUL(ArgList), 0);
+      |            ^~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1862:17: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1862 |      (pulldown, "vpeNewControlPanelOption", this->newControlPanelCmd);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1865:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1865 |  new ButtonInterface(pulldown, "vpeOpenControlPanelOption",
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1871:14: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1871 |              "vpeOpenAllControlPanelsOption",
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1875:33: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1875 |                 new CascadeMenu("vpePanelCascade",pulldown);
+      |                                 ^~~~~~~~~~~~~~~~~
+EditorWindow.C:1901:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1901 |  new ButtonInterface(pulldown, "vpeOpenMacroOption",
+      |                                ^~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1905:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1905 |  new ButtonInterface(pulldown, "vpeOpenImageOption",
+      |                                ^~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1910:17: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1910 |      (pulldown, "vpeOpenColormapEditorOption", this->openColormapCmd);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1914:24: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1914 |             (pulldown, "vpeMessageWindowOption",
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C: In member function ‘virtual void EditorWindow::createOptionsMenu(Widget)’:
+EditorWindow.C:1933:12: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1933 |   (parent, "optionsMenuPulldown", NUL(ArgList), 0);
+      |            ^~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1945:7: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1945 |       "vpeToolPalettesOption",
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1952:7: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1952 |       "vpeHitDetectionOption",
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1957:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1957 |  new ButtonInterface(pulldown, "vpePanelAccessOption", this->setPanelAccessCmd);
+      |                                ^~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1960:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1960 |  new ButtonInterface(pulldown, "vpePanelGroupOption", this->setPanelGroupCmd);
+      |                                ^~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C:1963:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1963 |  new ButtonInterface(pulldown, "vpeGridOption", this->gridCmd);
+      |                                ^~~~~~~~~~~~~~~
+EditorWindow.C: In member function ‘virtual void EditorWindow::createHelpMenu(Widget)’:
+EditorWindow.C:1980:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 1980 |         new ButtonInterface(this->helpMenuPulldown, "vpeOnVisualProgramOption",
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C: In function ‘void EditorWindow_EditMenuMapCB(Widget, XtPointer, XtPointer)’:
+EditorWindow.C:143:18: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  143 | #define NET_ATOM "NET_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:143:18: note: in definition of macro ‘NET_ATOM’
+  143 | #define NET_ATOM "NET_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C: In member function ‘void EditorWindow::openSelectedNodesCDB()’:
+EditorWindow.C:2511:11: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 2511 |      msg, "Confirm Open CDB", "Yes", "No", NULL, 2
+      |           ^~~~~~~~~~~~~~~~~~
+EditorWindow.C:2511:31: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 2511 |      msg, "Confirm Open CDB", "Yes", "No", NULL, 2
+      |                               ^~~~~
+EditorWindow.C:2511:38: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 2511 |      msg, "Confirm Open CDB", "Yes", "No", NULL, 2
+      |                                      ^~~~
+EditorWindow.C: In member function ‘void EditorWindow::doSelectedNodesDefaultAction()’:
+EditorWindow.C:2558:11: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 2558 |      msg, "Confirm Open CDB", "Yes", "No", NULL, 2
+      |           ^~~~~~~~~~~~~~~~~~
+EditorWindow.C:2558:31: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 2558 |      msg, "Confirm Open CDB", "Yes", "No", NULL, 2
+      |                               ^~~~~
+EditorWindow.C:2558:38: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 2558 |      msg, "Confirm Open CDB", "Yes", "No", NULL, 2
+      |                                      ^~~~
+EditorWindow.C:2603:44: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+ 2603 |         this->saveOption->getRootWidget(), "ArmAndActivate");
+      |                                            ^~~~~~~~~~~~~~~~
+EditorWindow.C:2605:51: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+ 2605 |         this->addInputTabOption->getRootWidget(), "ArmAndActivate");
+      |                                                   ^~~~~~~~~~~~~~~~
+EditorWindow.C:2607:54: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+ 2607 |         this->removeInputTabOption->getRootWidget(), "ArmAndActivate");
+      |                                                      ^~~~~~~~~~~~~~~~
+EditorWindow.C:2609:51: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+ 2609 |         this->executeOnceOption->getRootWidget(), "ArmAndActivate");
+      |                                                   ^~~~~~~~~~~~~~~~
+EditorWindow.C:2611:55: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+ 2611 |         this->executeOnChangeOption->getRootWidget(), "ArmAndActivate");
+      |                                                       ^~~~~~~~~~~~~~~~
+EditorWindow.C:2613:52: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+ 2613 |         this->endExecutionOption->getRootWidget(), "ArmAndActivate");
+      |                                                    ^~~~~~~~~~~~~~~~
+EditorWindow.C: In member function ‘boolean EditorWindow::copySelectedNodes(boolean)’:
+EditorWindow.C:143:18: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  143 | #define NET_ATOM "NET_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:143:18: note: in definition of macro ‘NET_ATOM’
+  143 | #define NET_ATOM "NET_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:5907:37: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+ 5907 | Atom delete_atom = XmInternAtom (d, "DELETE", False);
+      |                                     ^~~~~~~~
+In file included from EditorWindow.C:10:
+EditorWindow.C: In member function ‘char* EditorWindow::createNetFileFromSelection(int&, char**, int&)’:
+../base/defines.h:144:28: error: invalid conversion from ‘boolean’ {aka ‘unsigned char’} to ‘char*’ [-fpermissive]
+  144 | #define FALSE   ((boolean)0)
+      |                            ^
+      |                            |
+      |                            boolean {aka unsigned char}
+EditorWindow.C:6000:28: note: in expansion of macro ‘FALSE’
+ 6000 |     if (!tmpdirlen) return FALSE;
+      |                            ^~~~~
+EditorWindow.C: In member function ‘boolean EditorWindow::pasteCopiedNodes()’:
+EditorWindow.C:143:18: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  143 | #define NET_ATOM "NET_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:143:18: note: in definition of macro ‘NET_ATOM’
+  143 | #define NET_ATOM "NET_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C: In function ‘boolean EditorWindow_ConvertSelectionCB(Widget, Atom*, Atom*, Atom*, void**, long unsigned int*, int*)’:
+EditorWindow.C:143:18: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  143 | #define NET_ATOM "NET_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:143:18: note: in definition of macro ‘NET_ATOM’
+  143 | #define NET_ATOM "NET_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:144:18: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  144 | #define CFG_ATOM "CFG_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:144:18: note: in definition of macro ‘CFG_ATOM’
+  144 | #define CFG_ATOM "CFG_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C: In function ‘void EditorWindow_SelectionReadyCB(Widget, XtPointer, Atom*, Atom*, XtPointer, long unsigned int*, int*)’:
+EditorWindow.C:143:18: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  143 | #define NET_ATOM "NET_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:143:18: note: in definition of macro ‘NET_ATOM’
+  143 | #define NET_ATOM "NET_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:144:18: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  144 | #define CFG_ATOM "CFG_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:144:18: note: in definition of macro ‘CFG_ATOM’
+  144 | #define CFG_ATOM "CFG_CONTENTS"
+      |                  ^~~~~~~~~~~~~~
+EditorWindow.C:6340:41: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+ 6340 |     Atom delete_atom = XmInternAtom (d, "DELETE", False);
+      |                                         ^~~~~~~~
+In file included from EditorWindow.C:7106:
+sequence.h: At global scope:
+sequence.h:1:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+    1 | "//\n",
+      | ^~~~~~
+sequence.h:2:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+    2 | "// time: Wed Mar  5 11:15:47 2003\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:3:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+    3 | "//\n",
+      | ^~~~~~
+sequence.h:4:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+    4 | "// version: 3.2.0 (format), 4.2.0 (DX)\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:5:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+    5 | "//\n",
+      | ^~~~~~
+sequence.h:6:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+    6 | "//\n",
+      | ^~~~~~
+sequence.h:7:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+    7 | "// MODULE main\n",
+      | ^~~~~~~~~~~~~~~~~~
+sequence.h:8:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+    8 | "//\n",
+      | ^~~~~~
+sequence.h:9:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+    9 | "// comment: This example creates banded colors for a 2 dimensional data set. The interactors allow you to specify the break points of the bands, as well as the set of colors to apply to the bands. \n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from EditorWindow.C:7106:
+sequence.h:10:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   10 | "// page assignment: java seqno order=2, windowed=0, showing=1\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:11:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   11 | "// workspace: width = 565, height = 522\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:12:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   12 | "// layout: snap = 0, width = 50, height = 50, align = NN\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:13:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   13 | "//\n",
+      | ^~~~~~
+sequence.h:14:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   14 | "macro main(\n",
+      | ^~~~~~~~~~~~~~~
+sequence.h:15:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   15 | ") -> (\n",
+      | ^~~~~~~~~~
+sequence.h:16:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   16 | ") {\n",
+      | ^~~~~~~
+sequence.h:17:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   17 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:18:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   18 | "    // node GetLocal[1]: x = 166, y = 10, inputs = 3, label = GetLocal\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:19:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   19 | "    // input[1]: defaulting = 0, visible = 1, type = 67108863, value = 0\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:20:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   20 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:21:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   21 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:22:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   22 | "main_GetLocal_1_out_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:23:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   23 | "main_GetLocal_1_out_2 = \n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:24:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   24 | "    GetLocal(\n",
+      | ^~~~~~~~~~~~~~~~~
+sequence.h:25:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   25 | "    main_GetLocal_1_in_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:26:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   26 | "    main_GetLocal_1_in_2,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:27:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   27 | "    main_GetLocal_1_in_3\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:28:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   28 | "    ) [instance: 1, cache: 1];\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:29:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   29 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:30:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   30 | "    // node Compute2[1]: x = 10, y = 190, inputs = 5, label = Compute2\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:31:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   31 | "    // input[1]: defaulting = 0, visible = 1, type = 32, value = \"loop+1\"\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:32:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   32 | "    // input[2]: defaulting = 0, visible = 1, type = 32, value = \"loop\"\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:33:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   33 | "    // input[4]: visible = 0\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:34:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   34 | "    // input[5]: visible = 0\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:35:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   35 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:36:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   36 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:37:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   37 | "main_Compute2_1_out_1 = \n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:38:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   38 | "    Compute2(\n",
+      | ^~~~~~~~~~~~~~~~~
+sequence.h:39:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   39 | "    main_Compute2_1_in_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:40:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   40 | "    main_Compute2_1_in_2,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:41:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   41 | "    main_GetLocal_1_out_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:42:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   42 | "    main_Compute2_1_in_4,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:43:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   43 | "    main_Compute2_1_in_5\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:44:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   44 | "    ) [instance: 1, cache: 1];\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:45:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   45 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:46:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   46 | "    // node GetGlobal[1]: x = 248, y = 100, inputs = 3, label = GetGlobal\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:47:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   47 | "    // input[1]: defaulting = 0, visible = 1, type = 67108863, value = 0\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:48:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   48 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:49:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   49 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:50:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   50 | "main_GetGlobal_1_out_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:51:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   51 | "main_GetGlobal_1_out_2 = \n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:52:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   52 | "    GetGlobal(\n",
+      | ^~~~~~~~~~~~~~~~~~
+sequence.h:53:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   53 | "    main_GetGlobal_1_in_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:54:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   54 | "    main_GetGlobal_1_in_2,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:55:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   55 | "    main_GetGlobal_1_in_3\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:56:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   56 | "    ) [instance: 1, cache: 1];\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:57:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   57 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:58:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   58 | "    // node Compute2[2]: x = 102, y = 190, inputs = 5, label = Compute2\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:59:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   59 | "    // input[1]: defaulting = 0, visible = 1, type = 32, value = \"loop+1\"\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:60:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   60 | "    // input[2]: defaulting = 0, visible = 1, type = 32, value = \"loop\"\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:61:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   61 | "    // input[4]: visible = 0\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:62:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   62 | "    // input[5]: visible = 0\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:63:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   63 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:64:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   64 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:65:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   65 | "main_Compute2_2_out_1 = \n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:66:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   66 | "    Compute2(\n",
+      | ^~~~~~~~~~~~~~~~~
+sequence.h:67:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   67 | "    main_Compute2_2_in_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:68:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   68 | "    main_Compute2_2_in_2,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:69:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   69 | "    main_GetGlobal_1_out_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:70:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   70 | "    main_Compute2_2_in_4,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:71:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   71 | "    main_Compute2_2_in_5\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:72:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   72 | "    ) [instance: 2, cache: 1];\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:73:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   73 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:74:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   74 | "    // node Compute2[3]: x = 32, y = 280, inputs = 5, label = Compute2\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:75:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   75 | "    // input[1]: defaulting = 0, visible = 1, type = 32, value = \"global-local\"\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:76:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   76 | "    // input[2]: defaulting = 0, visible = 1, type = 32, value = \"local\"\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:77:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   77 | "    // input[4]: defaulting = 0, visible = 1, type = 32, value = \"global\"\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:78:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   78 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:79:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   79 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:80:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   80 | "main_Compute2_3_out_1 = \n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:81:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   81 | "    Compute2(\n",
+      | ^~~~~~~~~~~~~~~~~
+sequence.h:82:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   82 | "    main_Compute2_3_in_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:83:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   83 | "    main_Compute2_3_in_2,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:84:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   84 | "    main_Compute2_1_out_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:85:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   85 | "    main_Compute2_3_in_4,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:86:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   86 | "    main_Compute2_2_out_1\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:87:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   87 | "    ) [instance: 3, cache: 1];\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:88:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   88 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:89:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   89 | "    // node Compute[1]: x = 75, y = 370, inputs = 3, label = Compute\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:90:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   90 | "    // input[1]: defaulting = 0, visible = 0, type = 32, value = \"[$0, $1]\"\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:91:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   91 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:92:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   92 | "    // expression: value = [a, b]\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:93:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   93 | "    // name[2]: value = a\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:94:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   94 | "    // name[3]: value = b\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:95:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   95 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:96:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   96 | "main_Compute_1_out_1 = \n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:97:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   97 | "    Compute(\n",
+      | ^~~~~~~~~~~~~~~~
+sequence.h:98:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   98 | "    main_Compute_1_in_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:99:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+   99 | "    main_Compute2_3_out_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:100:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  100 | "    main_GetLocal_1_out_1\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:101:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  101 | "    ) [instance: 1, cache: 1];\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:102:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  102 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:103:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  103 | "    // node DXLInput[1]: x = 353, y = 10, inputs = 1, label = _java_control\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:104:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  104 | "    // input[1]: defaulting = 0, visible = 1, type = 29, value = 0\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:105:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  105 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:106:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  106 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:107:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  107 | "    main_DXLInput_1_out_1 = _java_control;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:108:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  108 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:109:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  109 | "    // node SetGlobal[1]: x = 249, y = 280, inputs = 3, label = SetGlobal\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:110:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  110 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:111:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  111 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:112:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  112 | "    SetGlobal(\n",
+      | ^~~~~~~~~~~~~~~~~~
+sequence.h:113:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  113 | "    main_Compute2_2_out_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:114:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  114 | "    main_GetGlobal_1_out_2,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:115:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  115 | "    main_SetGlobal_1_in_3\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:116:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  116 | "    ) [instance: 1, cache: 1];\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:117:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  117 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:118:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  118 | "    // node SetLocal[1]: x = 167, y = 280, inputs = 3, label = SetLocal\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:119:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  119 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:120:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  120 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:121:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  121 | "    SetLocal(\n",
+      | ^~~~~~~~~~~~~~~~~
+sequence.h:122:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  122 | "    main_Compute2_1_out_1,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:123:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  123 | "    main_GetLocal_1_out_2,\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:124:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  124 | "    main_SetLocal_1_in_3\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:125:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  125 | "    ) [instance: 1, cache: 1];\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:126:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  126 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:127:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  127 | "    // node Transmitter[3]: x = 57, y = 460, inputs = 1, label = java_sequence\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:128:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  128 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:129:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  129 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:130:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  130 | "java_sequence = main_Compute_1_out_1;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:131:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  131 | "    // \n",
+      | ^~~~~~~~~~~
+sequence.h:132:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  132 | "    // node Transmitter[4]: x = 356, y = 100, inputs = 1, label = java_control\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:133:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  133 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:134:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  134 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:135:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  135 | "java_control = main_DXLInput_1_out_1;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:136:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  136 | "    //\n",
+      | ^~~~~~~~~~
+sequence.h:137:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  137 | "    // decorator Annotate pos=(330,206) size=235x40 style(Label), value = <NULL>\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:138:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  138 | "    // annotation user_begin: 58\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:139:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  139 | "    // annotation user: D O   N O T   E D I T\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:140:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  140 | "    // annotation user: This page was created automatically.\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:141:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  141 | "    // annotation user_end: <NULL>\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:142:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  142 | "    // page group: java seqno\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:143:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  143 | "// network: end of macro body\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:144:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  144 | "}\n",
+      | ^~~~~
+sequence.h:145:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  145 | "main_GetLocal_1_in_1 = 0;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:146:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  146 | "main_GetLocal_1_in_2 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:147:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  147 | "main_GetLocal_1_in_3 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:148:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  148 | "main_GetLocal_1_out_1 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:149:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  149 | "main_GetLocal_1_out_2 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:150:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  150 | "main_Compute2_1_in_1 = \"loop+1\";\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:151:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  151 | "main_Compute2_1_in_2 = \"loop\";\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:152:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  152 | "main_Compute2_1_in_4 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:153:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  153 | "main_Compute2_1_in_5 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:154:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  154 | "main_Compute2_1_out_1 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:155:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  155 | "main_GetGlobal_1_in_1 = 0;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:156:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  156 | "main_GetGlobal_1_in_2 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:157:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  157 | "main_GetGlobal_1_in_3 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:158:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  158 | "main_GetGlobal_1_out_1 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:159:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  159 | "main_GetGlobal_1_out_2 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:160:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  160 | "main_Compute2_2_in_1 = \"loop+1\";\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:161:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  161 | "main_Compute2_2_in_2 = \"loop\";\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:162:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  162 | "main_Compute2_2_in_4 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:163:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  163 | "main_Compute2_2_in_5 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:164:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  164 | "main_Compute2_2_out_1 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:165:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  165 | "main_Compute2_3_in_1 = \"global-local\";\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:166:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  166 | "main_Compute2_3_in_2 = \"local\";\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:167:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  167 | "main_Compute2_3_in_4 = \"global\";\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:168:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  168 | "main_Compute2_3_out_1 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:169:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  169 | "main_Compute_1_in_1 = \"[$0, $1]\";\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:170:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  170 | "main_Compute_1_out_1 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:171:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  171 | "_java_control = 0;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~
+sequence.h:172:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  172 | "main_SetGlobal_1_in_3 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:173:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  173 | "main_SetLocal_1_in_3 = NULL;\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:174:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  174 | "Executive(\"product version 4 2 0\");\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:175:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  175 | "$sync\n",
+      | ^~~~~~~~~
+sequence.h:176:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  176 | "// This network contains DXLink tools.  Therefore, the following line(s)\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:177:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  177 | "// that would cause an execution when run in script mode have been \n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:178:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  178 | "// commented out.  This will facilitate the use of the DXLink routines\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:179:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  179 | "// exDXLLoadScript() and DXLLoadVisualProgram() when the DXLink\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:180:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  180 | "// application is connected to an executive.\n",
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sequence.h:181:1: warning: ISO C++ forbids converting a string constant to ‘String’ {aka ‘char*’} [-Wwrite-strings]
+  181 | "// main();\n",
+      | ^~~~~~~~~~~~~~
+EditorWindow.C: In member function ‘boolean EditorWindow::javifyNetwork()’:
+EditorWindow.C:7170:17: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 7170 |  char* macros = "/java/server/dxmacros";
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+EditorWindow.C: In member function ‘void EditorWindow::setUndoActivation()’:
+EditorWindow.C:7545:56: warning: ISO C++ forbids converting a string constant to ‘XmStringCharSet’ {aka ‘char*’} [-Wwrite-strings]
+ 7545 |     XmString xmstr = XmStringCreateLtoR (button_label, "bold");
+      |                                                        ^~~~~~
+make[4]: *** [Makefile:782: EditorWindow.o] Error 1
+make[3]: *** [Makefile:732: all] Error 2
+make[2]: *** [Makefile:260: all-recursive] Error 1
+make[1]: *** [Makefile:256: all-recursive] Error 1
+make: *** [Makefile:277: all-recursive] Error 1

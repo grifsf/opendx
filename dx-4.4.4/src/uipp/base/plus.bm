@@ -1,0 +1,6 @@
+#define plus_width 12
+#define plus_height 14
+static char plus_bits[] = {
+   '\x00', '\x00', '\x00', '\x00', '\xfe', '\x0f', '\x02', '\x08', '\x42', '\x08', '\x42', '\x08',
+   '\x42', '\x08', '\xfa', '\x0b', '\x42', '\x08', '\x42', '\x08', '\x42', '\x08', '\x02', '\x08',
+   '\xfe', '\x0f', '\x00', '\x00'};

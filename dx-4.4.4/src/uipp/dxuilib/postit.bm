@@ -1,0 +1,11 @@
+#define postit_width 24
+#define postit_height 24
+#define postit_x_hot 11
+#define postit_y_hot 0
+static char postit_bits[] = {
+   '\x00', '\x00', '\x00', '\xaa', '\xaa', '\xaa', '\x54', '\x55', '\xd5', '\xaa', '\xaa', '\xaa',
+   '\x54', '\x41', '\xd5', '\xaa', '\xa8', '\xaa', '\x54', '\x75', '\xd5', '\xaa', '\xbc', '\xaa',
+   '\x54', '\x55', '\xd5', '\xaa', '\xaa', '\xaa', '\x54', '\x41', '\xd5', '\xaa', '\xa8', '\xaa',
+   '\x54', '\x75', '\xd5', '\xaa', '\xa8', '\xaa', '\x54', '\x75', '\xd5', '\xaa', '\xa8', '\xaa',
+   '\x54', '\x75', '\xd5', '\xaa', '\xa8', '\xaa', '\x54', '\x75', '\xd5', '\xaa', '\xbc', '\xaa',
+   '\x54', '\x55', '\xd5', '\xaa', '\xaa', '\xaa', '\x54', '\x55', '\xd5', '\xfe', '\xff', '\xff'};
