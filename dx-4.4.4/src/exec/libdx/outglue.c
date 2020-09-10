@@ -246,7 +246,7 @@ Error DXCallOutboard (PFE m, int dxfd)
     count = 3;
     for (i=0; i<nin; i++) 
     {
-	if (iptr[i] == (int)NULL)
+	if (iptr[i] == -1)
 	    continue;
 
 	ilist[i] = DXGetEnumeratedMember(iobj, count++, NULL);
@@ -434,7 +434,7 @@ Error DXGetInputs(Object *in, int dxfd)
     count = 3;
     for (i=0; i<nin; i++) 
     {
-	if (iptr[i] == (int)NULL)
+	if (iptr[i] == -1)
 	    continue;
 
 	in[i] = DXGetEnumeratedMember(iobj, count++, NULL);
