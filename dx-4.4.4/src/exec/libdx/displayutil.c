@@ -262,7 +262,7 @@ DXParseWhere(char *where,
 	*a0 = (char *)DXAllocate(strlen(copy)+1);
 	if (! *a0)
 	    goto error;
-	strncpy(*a0, arg0, strlen(arg0)+1);
+	memcpy(*a0, arg0, strlen(arg0)+1);
     }
 
     if (a1)
@@ -283,7 +283,7 @@ DXParseWhere(char *where,
 	*a1 = (char *)DXAllocate(strlen(arg1)+1);
 	if (! *a1)
 	    goto error;
-	strncpy(*a1, arg1, strlen(arg1)+1);
+	memcpy(*a1, arg1, strlen(arg1)+1);
     }
 
     if (a2)
@@ -294,7 +294,7 @@ DXParseWhere(char *where,
 	*a2 = (char *)DXAllocate(strlen(arg2)+1);
 	if (! *a2)
 	    goto error;
-	strncpy(*a2, arg2, strlen(arg2)+1);
+	memcpy(*a2, arg2, strlen(arg2)+1);
     }
 
     if (a3)
@@ -302,7 +302,7 @@ DXParseWhere(char *where,
 	*a3 = (char *)DXAllocate(strlen(arg3)+1);
 	if (! *a3)
 	    goto error;
-	strncpy(*a3, arg3, strlen(arg3)+1);
+	memcpy(*a3, arg3, strlen(arg3)+1);
     }
 
     if (a4)
@@ -310,7 +310,7 @@ DXParseWhere(char *where,
 	*a4 = (char *)DXAllocate(strlen(arg4)+1);
 	if (! *a4)
 	    goto error;
-	strncpy(*a4, arg4, strlen(arg4)+1);
+	memcpy(*a4, arg4, strlen(arg4)+1);
     }
 
     if (depth)
