@@ -631,10 +631,10 @@ static Error SendPendingMessage(char *buf, char *messageid)
   if (!p)
      goto error;
       
-  strncpy(plr->message, buf, strlen(buf)+1);
-  strncpy(plr->messageType, "LINK", 5);
-  strncpy(plr->major, major, strlen(major)+1);
-  strncpy(plr->minor, messageid, strlen(messageid)+1);
+  memcpy(plr->message, buf, strlen(buf)+1);
+  memcpy(plr->messageType, "LINK", 5);
+  memcpy(plr->major, major, strlen(major)+1);
+  memcpy(plr->minor, messageid, strlen(messageid)+1);
       
   DXFreeModuleId(major);
   major = NULL;
