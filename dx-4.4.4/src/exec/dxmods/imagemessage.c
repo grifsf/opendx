@@ -1208,13 +1208,13 @@ SendPendingMessage( char *type, char *buf, char *minor )
     if ( !p )
         goto error;
 
-    strncpy( plr->message, buf, strlen( buf ) + 1 );
+    memcpy( plr->message, buf, strlen( buf ) + 1 );
 
     strcpy( plr->messageType, type );
 
-    strncpy( plr->major, major, strlen( major ) + 1 );
+    memcpy( plr->major, major, strlen( major ) + 1 );
 
-    strncpy( plr->minor, minor, strlen( minor ) + 1 );
+    memcpy( plr->minor, minor, strlen( minor ) + 1 );
 
     DXFreeModuleId( major );
 
