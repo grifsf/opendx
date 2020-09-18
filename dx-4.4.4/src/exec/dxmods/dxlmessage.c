@@ -125,9 +125,9 @@ m_DXLMessage(Object *in, Object *out)
 	if (! p)
 	    goto error;
 	
-	memncpy(plr->message, message, strlen(message)+1);
-	memncpy(plr->messageType, messageType, strlen(messageType)+1);
-	memncpy(plr->major, major, strlen(major)+1);
+	memcpy(plr->message, message, strlen(message)+1);
+	memcpy(plr->messageType, messageType, strlen(messageType)+1);
+	memcpy(plr->major, major, strlen(major)+1);
 
 	DXFreeModuleId(major);
 	major = NULL;
