@@ -1352,7 +1352,7 @@ static int Pfsmgr (char *c, Object *in)
 
     for (b = buf; *b; b++)
 	if (isspace (*b))
-	    *b = (char) NULL;
+	    *b = (long) NULL;
 
     ret = _dxf_pfsmgr (argc, argv);
 
