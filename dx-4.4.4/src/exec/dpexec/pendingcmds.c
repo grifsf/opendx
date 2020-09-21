@@ -172,7 +172,7 @@ DXSetPendingCmd(char *major, char *minor, int (*job)(Private), Private data)
 	goto error;
     }
 
-    strncpy(p->major, major, strlen(major) + 1);
+    memcpy(p->major, major, strlen(major) + 1);
 
     if (minor)
     {
@@ -180,7 +180,7 @@ DXSetPendingCmd(char *major, char *minor, int (*job)(Private), Private data)
 	if (! p->minor)
 	    goto error;
 
-	strncpy(p->minor, minor, strlen(minor) + 1);
+	memcpy(p->minor, minor, strlen(minor) + 1);
     }
     else
 	p->minor = NULL;
