@@ -326,7 +326,7 @@ DXLStartChild(const char *string, const char *host, int* inp, int* outp, int* er
 
     n = strlen(string) + 1;
     s = (char*)malloc(n);
-    strncpy(s, string, n);
+    memcpy(s, string, n);
 
     i = 0;
     c = s;
