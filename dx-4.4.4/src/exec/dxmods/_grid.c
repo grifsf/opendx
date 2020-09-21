@@ -946,6 +946,7 @@ static Error generate_ellipse_pos (pos, point, shape, count, dim)
     float		*point;
     float		*shape;
     int			*count;
+    int dim;
 {
     double		delta;
     int			i;
