@@ -400,10 +400,11 @@ static Error grid_rectangle (point, shape, density, dim, outo)
     return (OK);
 }
 
-static Error grid_crosshair (point, shape, density, dim, outo)
+static Error grid_crosshair (point, shape, density,dim, outo)
     float		*point;
     float		*shape;
     int			*density;
+    int dim;
     Object		*outo;
 {
     int			count[3];
@@ -656,10 +657,11 @@ static Error grid_ellipse (point, shape, density, dim, outo)
     return (OK);
 } 
 
-static Error grid_brick (point, shape, density, dim, outo)
+static Error grid_brick (point, shape, density,dim, outo)
     float		*point;
     float		*shape;
     int			*density;
+    int dim;
     Object		*outo;
 {
     int			count[3];
