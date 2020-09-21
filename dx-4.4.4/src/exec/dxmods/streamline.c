@@ -1258,8 +1258,7 @@ GetElementType(Object o, char **str)
     }
 }
 
-static Stream
-NewStream(nDim)
+static Stream NewStream(int nDim)
 {
     Stream s = NULL;
 
