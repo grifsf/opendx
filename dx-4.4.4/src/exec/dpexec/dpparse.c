@@ -740,7 +740,7 @@ _dxf_ExEvalConstant (node *n)
     {
 	cp = (char *) n->v.constant.data;
 	for (i = 0, nstrs = 0; i < n->v.constant.items; i++)
-	    if (cp[i] == (char) NULL)
+	    if (cp[i] == (long) NULL)
 		nstrs++;
 
 	if (nstrs <= 1)
@@ -767,7 +767,7 @@ _dxf_ExEvalConstant (node *n)
 		    strlist[nstrs++] = cp+i;
 		    strstart = FALSE;
 		}
-		if (cp[i] == (char) NULL)
+		if (cp[i] == (long) NULL)
 		    strstart = TRUE;
 	    }
 
