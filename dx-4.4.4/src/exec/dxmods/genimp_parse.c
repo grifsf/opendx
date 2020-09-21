@@ -1925,7 +1925,7 @@ parse_template(char *format, char **filename)
          statement[length+1]='\0';
          ps.line = statement;
 	 */
-         strncpy(ps.line,pstart,length);
+         memcpy(ps.line,pstart,length);
          ps.line[length]=' ';
          ps.line[length+1]='\0';
       }
