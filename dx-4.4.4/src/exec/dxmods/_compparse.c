@@ -32,7 +32,6 @@
    There are some unavoidable exceptions within include files to
    define necessary library symbols; they are noted "INFRINGES ON
    USER NAME SPACE" below.  */
-
 /* Identify Bison output.  */
 #define YYBISON 1
 
@@ -47,6 +46,8 @@
 
 /* If NAME_PREFIX is specified substitute the variables and functions
    names.  */
+/*contains the defintion for dxfcclex*/
+#include "_complex.h"
 #define yyparse _dxfccparse
 #define yylex   _dxfcclex
 #define yyerror _dxfccerror

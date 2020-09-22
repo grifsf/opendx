@@ -18,7 +18,7 @@
 #include "_compute.h"
 #include "_compoper.h"
 #include "_compparse.h"
-
+#include "_complex.h"
 /* If this char is 0, return 0, else space on */
 #define input() (*_dxfccsptr++)
 #define unput() (_dxfccsptr--)
