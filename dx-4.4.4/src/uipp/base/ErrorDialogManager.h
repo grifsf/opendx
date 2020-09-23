@@ -70,7 +70,12 @@ class ErrorDialogManager : public DialogManager
 	)
 
     {
-	this->DialogManager::post(parent, message, "Error");
+    //Bad solution and i hate that it works
+    //Copys the string into a char array
+    std::string _Tstring="Error";
+    char _STarray[_Tstring.length()+1];
+    strcpy(_STarray,_Tstring.c_str());
+	this->DialogManager::post(parent, message,_Tstring);
     }
 
     //
