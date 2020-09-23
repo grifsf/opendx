@@ -75,6 +75,9 @@ static void Resize(Widget);
 
 static Boolean SetValues();
 
+int _XmRegisterConverters();//adds forward declaration to quell warning
+
+int XmRegisterConverters();//adds forward declaration to quell warning
 /*
  * Private routines used by the XmMultiTextWidget.
  */
