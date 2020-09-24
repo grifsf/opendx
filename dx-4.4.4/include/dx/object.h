@@ -150,7 +150,7 @@ the object should NOT be deleted, this routine can be used instead of
 DXDelete.
 **/
 
-int DXGetObjectTag(Object o);
+long int DXGetObjectTag(Object o);
 Object DXSetObjectTag(Object o, int tag);
 /**
 \index{DXGetObjectTag}\index{DXSetObjectTag}
