@@ -99,9 +99,10 @@ class DialogManager : public UIComponent
     //
     // Posts a dialog as a child of the application's root window.
     //
-    virtual void post(Widget parent,
+    virtual void post(
+        Widget parent,
 		      char*          message        = NULL,
-		      char*          title          = NULL,
+		      const char*          title          = NULL,
 		      void*          clientData     = NULL,
 		      DialogCallback okCallback     = NULL,
 		      DialogCallback cancelCallback = NULL,
