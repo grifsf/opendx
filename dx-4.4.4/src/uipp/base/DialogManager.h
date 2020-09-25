@@ -102,7 +102,7 @@ class DialogManager : public UIComponent
     virtual void post(
         Widget parent,
 		      char*          message        = NULL,
-		      const char*          title          = NULL,
+		      char const*          title          = NULL,
 		      void*          clientData     = NULL,
 		      DialogCallback okCallback     = NULL,
 		      DialogCallback cancelCallback = NULL,

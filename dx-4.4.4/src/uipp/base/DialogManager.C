@@ -280,7 +280,7 @@ Widget DialogManager::getDialog(Widget parent)
 
 void DialogManager::post(Widget		parent,
 			 char*          message,
-			 char*          title,
+			 char const*          title,
 			 void*          clientData,
 			 DialogCallback okCallback,
 			 DialogCallback cancelCallback,
@@ -319,7 +319,8 @@ void DialogManager::post(Widget		parent,
     //
     if (title)
     {
-	string = XmStringCreateLtoR(title, XmSTRING_DEFAULT_CHARSET);
+	//string = XmStringCreateLtoR(title, XmSTRING_DEFAULT_CHARSET);
+	string = XmStringGenerate((XtPointer)title, XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 	XtVaSetValues(dialog, XmNdialogTitle, string, NULL);
 	XmStringFree(string);
     }
