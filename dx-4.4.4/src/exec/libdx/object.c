@@ -237,7 +237,7 @@ _dxf_NewObject(struct object_class *class)
  * Tags
  */
 
-int
+long int//changed to a long int to resolve pointer issues
 DXGetObjectTag(Object o)
 {
     if (!o)
