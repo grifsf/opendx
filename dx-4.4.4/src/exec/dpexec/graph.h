@@ -202,7 +202,7 @@ typedef struct program {
     int				cursor;	/* The first (or currently running)
 					 * function (module) */
     int				first_skipped; /* first skipped module   */
-    int				graphId;
+    long int				graphId;//changed to a long int in an attempt to resolve pointer issues
     int				subgraphId;
     _gorigin			origin;	/* where the graph came from	*/
     int				error;	/* an error occurred		*/
