@@ -155,7 +155,8 @@ void TypeChoice::createChoice (Widget notebook)
 	    FALSE, this->getActiveHelpMsg());
 
     char *cp = DuplicateString(this->getFormalName());
-    XmString xmstr = XmStringCreateLtoR(cp, "bold");
+    //XmString xmstr = XmStringCreateLtoR(cp, "bold");
+    XmString xmstr = XmStringGenerate((XtPointer)cp, "bold",XmCHARSET_TEXT,0);
     delete cp;
     XtVaSetValues (this->radio_button->getRootWidget(),
 	XmNleftAttachment,	XmATTACH_FORM,
@@ -361,7 +362,8 @@ boolean popup_the_dialog = (is_info == FALSE);
 	if (!tmp) return ;
 	int len = strlen(tmp);
 	if ((len) && (tmp[len-1] == '\n')) tmp[len-1] = '\0';
-	xmstr = XmStringCreateLtoR (tmp, "normal");
+	//xmstr = XmStringCreateLtoR (tmp, "normal");
+	xmstr = XmStringGenerate ((XtPointer)tmp, "normal",XmCHARSET_TEXT,0);
 	delete tmp;
     } else {
 	boolean is_warning = FALSE;
@@ -370,16 +372,19 @@ boolean popup_the_dialog = (is_info == FALSE);
 	XmString xmstr2;
 	if (cp) {
 	    cp+= strlen("ERROR");
-	    xmstr2 = XmStringCreateLtoR (cp, "oblique");
+	    //xmstr2 = XmStringCreateLtoR (cp, "oblique");
+	    xmstr2 = XmStringGenerate ((XtPointer)cp, "oblique",XmCHARSET_TEXT,0);
 	} else {
 	    cp = (char *) strstr(msg, "WARNING");
 	    if (cp) {
 		cp+= strlen("WARNING");
-		xmstr2 = XmStringCreateLtoR (cp, "oblique");
+		//xmstr2 = XmStringCreateLtoR (cp, "oblique");
+		xmstr2 = XmStringGenerate ((XtPointer)cp, "oblique",XmCHARSET_TEXT,0);
 		is_warning = TRUE;
 		popup_the_dialog = FALSE;
 	    } else {
-		xmstr2 = XmStringCreateLtoR (tmp, "oblique");
+		//xmstr2 = XmStringCreateLtoR (tmp, "oblique");
+		xmstr2 = XmStringGenerate ((XtPointer)tmp, "oblique",XmCHARSET_TEXT,0);
 	    }
 	}
 	if (EqualString(msg, "Connection to DX broken"))
@@ -387,11 +392,14 @@ boolean popup_the_dialog = (is_info == FALSE);
 	delete tmp;
 	XmString xmstr1;
 	if (is_warning) 
-	    xmstr1 = XmStringCreateLtoR ("WARNING: ", "bold");
+	    //xmstr1 = XmStringCreateLtoR ("WARNING: ", "bold");
+	    xmstr1 = XmStringGenerate ((XtPointer)"WARNING: ", "bold",XmCHARSET_TEXT,0);
 	else if (popup_the_dialog == FALSE)
-	    xmstr1 = XmStringCreateLtoR ("STATUS: ", "oblique");
+	    //xmstr1 = XmStringCreateLtoR ("STATUS: ", "oblique");
+	    xmstr1 = XmStringGenerate ((XtPointer)"STATUS: ", "oblique",XmCHARSET_TEXT,0);
 	else
-	    xmstr1 = XmStringCreateLtoR ("ERROR: ", "bold");
+	    //xmstr1 = XmStringCreateLtoR ("ERROR: ", "bold");
+	    xmstr1 = XmStringGenerate ((XtPointer)"ERROR: ", "bold",XmCHARSET_TEXT,0);
 	xmstr = XmStringConcat (xmstr1, xmstr2);
 	XmStringFree(xmstr1);
 	XmStringFree(xmstr2);

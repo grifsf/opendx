@@ -239,7 +239,8 @@ Widget GARChooserWindow::createWorkArea (Widget parent)
 	XmNbottomOffset,	4,
 	XmNtopOffset,		-23,
     NULL);
-    XmString xmstr = XmStringCreateLtoR (" ", "small_normal");
+    //XmString xmstr = XmStringCreateLtoR (" ", "small_normal");
+    XmString xmstr = XmStringGenerate((XtPointer)" ", "small_normal",XmCHARSET_TEXT,0);//This might break everything
     Widget help_viewer = XtVaCreateManagedWidget ("helpViewer",
 	xmLabelWidgetClass,	help_frame,
 	XmNlabelString,		xmstr,
@@ -761,7 +762,8 @@ void GARChooserWindow::setFileSearchDir(const char *value)
 #endif
     if (extlen) 
 	strcat(dirspec, ext);
-    XmString xmstr = XmStringCreateLtoR (dirspec, "bold");
+    //XmString xmstr = XmStringCreateLtoR (dirspec, "bold");
+    XmString xmstr = XmStringGenerate((XtPointer)dirspec, "bold",XmCHARSET_TEXT,0);
 #ifdef DXD_WIN
     Widget filt = XmFileSelectionBoxGetChild(fsb, XmDIALOG_FILTER_TEXT);
     XmTextSetString(filt, dirspec);

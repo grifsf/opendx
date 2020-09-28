@@ -974,7 +974,8 @@ Widget GARMainWindow::createWorkArea(Widget parent)
 
 
 
-    xms = XmStringCreateLtoR("Field\ninterleaving", XmSTRING_DEFAULT_CHARSET);
+    //xms = XmStringCreateLtoR("Field\ninterleaving", XmSTRING_DEFAULT_CHARSET);
+    xms = XmStringGenerate((XtPointer)"Field\ninterleaving", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
     this->field_interleaving_label = XtVaCreateWidget(
 		"field_interleaving_label", 
 		xmLabelWidgetClass, this->generalform,
@@ -1008,7 +1009,8 @@ Widget GARMainWindow::createWorkArea(Widget parent)
     if(FULL)
 	XtManageChild(this->field_interleaving_om);
 
-    xms = XmStringCreateLtoR("Vector\ninterleaving", XmSTRING_DEFAULT_CHARSET);
+    //xms = XmStringCreateLtoR("Vector\ninterleaving", XmSTRING_DEFAULT_CHARSET);
+    xms = XmStringGenerate((XtPointer)"Vector\ninterleaving", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 
     if (FULL) 
     this->vector_interleaving_label = XtVaCreateWidget(
@@ -1216,7 +1218,8 @@ Widget GARMainWindow::createWorkArea(Widget parent)
     XmTextSetString(this->series_delta_text, "1");
     this->setSeriesSensitivity(False);
 
-    xms = XmStringCreateLtoR("Series\ninterleaving", XmSTRING_DEFAULT_CHARSET);
+    //xms = XmStringCreateLtoR("Series\ninterleaving", XmSTRING_DEFAULT_CHARSET);
+    xms = XmStringGenerate((XtPointer)"Series\ninterleaving", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
     this->series_interleaving_label = XtVaCreateWidget(
 		"series_interleaving_label", 
 		xmLabelWidgetClass, this->generalform,
@@ -1252,7 +1255,8 @@ Widget GARMainWindow::createWorkArea(Widget parent)
 	XtManageChild(this->series_interleaving_om);
     XtUninstallTranslations(this->series_interleaving_om);
 
-    xms = XmStringCreateLtoR("Series\nseparator", XmSTRING_DEFAULT_CHARSET);
+    //xms = XmStringCreateLtoR("Series\nseparator", XmSTRING_DEFAULT_CHARSET);
+    xms = XmStringGenerate((XtPointer)"Series\nseparator", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
     this->series_sep_tb = XtVaCreateWidget(
 		"series_separator_tb",
 		xmToggleButtonWidgetClass,this->generalform,
@@ -1689,7 +1693,8 @@ Widget GARMainWindow::createWorkArea(Widget parent)
 		XmNarrowDirection, XmARROW_DOWN,
 		NULL);
 
-    xms = XmStringCreateLtoR("Move\nfield", XmSTRING_DEFAULT_CHARSET);
+    //xms = XmStringCreateLtoR("Move\nfield", XmSTRING_DEFAULT_CHARSET);
+    xms = XmStringGenerate((XtPointer)"Move\nfield", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 
     this->move_label =
 	XtVaCreateManagedWidget(
@@ -3390,12 +3395,14 @@ extern "C" void GARMainWindow_GridCB(Widget w, XtPointer clientData, XtPointer)
     if(!set) 
     {
 	gmw->dimension = 1;
-        xms = XmStringCreateLtoR("Point\npositions", XmSTRING_DEFAULT_CHARSET);
+        //xms = XmStringCreateLtoR("Point\npositions", XmSTRING_DEFAULT_CHARSET);
+        xms = XmStringGenerate((XtPointer)"Point\npositions", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
     }
     else
     {
 	gmw->dimension = gmw->getDimension();
-        xms = XmStringCreateLtoR("Grid\npositions", XmSTRING_DEFAULT_CHARSET);
+        //xms = XmStringCreateLtoR("Grid\npositions", XmSTRING_DEFAULT_CHARSET);
+        xms = XmStringGenerate((XtPointer)"Grid\npositions", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
     }
     //
     // Change the regularity label
@@ -5921,7 +5928,8 @@ void GARMainWindow::newGAR (unsigned long mode)
         this->setTextSensitivity(this->grid_text[1], False);
         this->setTextSensitivity(this->grid_text[2], False);
         this->setTextSensitivity(this->grid_text[3], False);
-        XmString xms = XmStringCreateLtoR("Point\npositions", XmSTRING_DEFAULT_CHARSET);
+        //XmString xms = XmStringCreateLtoR("Point\npositions", XmSTRING_DEFAULT_CHARSET);
+        XmString xms = XmStringGenerate((XtPointer)"Point\npositions", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 	XtVaSetValues(this->regularity_label, XmNlabelString, xms, NULL);
 	XmStringFree(xms);
     }
@@ -6018,7 +6026,8 @@ void GARMainWindow::newGAR()
     {
 	XmToggleButtonSetState(this->grid_tb,               False, True);
         XmString xms = XmStringCreateSimple("Point \npositions");
-        xms = XmStringCreateLtoR("Point\npositions", XmSTRING_DEFAULT_CHARSET);
+        //xms = XmStringCreateLtoR("Point\npositions", XmSTRING_DEFAULT_CHARSET);
+        xms = XmStringGenerate((XtPointer)"Point\npositions", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 	XtVaSetValues(this->regularity_label, XmNlabelString, xms, NULL);
 	XmStringFree(xms);
     }
@@ -8046,12 +8055,14 @@ void GARMainWindow::setFieldDirty()
     if(!XmListGetSelectedPos(this->field_list, &position_list, &position_count))
     {
 	xmstr = 
-	    XmStringCreateLtoR("A field parameter has changed.\nAdd the field by pressing the Add or Insert button.", XmSTRING_DEFAULT_CHARSET); 
+	    //XmStringCreateLtoR("A field parameter has changed.\nAdd the field by pressing the Add or Insert button.", XmSTRING_DEFAULT_CHARSET); 
+	    XmStringGenerate((XtPointer)"A field parameter has changed.\nAdd the field by pressing the Add or Insert button.", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0); 
     }
     else
     {
 	xmstr = 
-	    XmStringCreateLtoR("A field parameter has changed.\nUpdate the field by pressing the Modify button.", XmSTRING_DEFAULT_CHARSET); 
+	    //XmStringCreateLtoR("A field parameter has changed.\nUpdate the field by pressing the Modify button.", XmSTRING_DEFAULT_CHARSET); 
+	    XmStringGenerate((XtPointer)"A field parameter has changed.\nUpdate the field by pressing the Modify button.", XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0); 
     }
 
     XmToggleButtonSetState(this->modify_tb, True, False);
