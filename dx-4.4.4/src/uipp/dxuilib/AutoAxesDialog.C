@@ -118,7 +118,7 @@ Pixmap AutoAxesDialog::TicksOutGrey = NUL(Pixmap);
 
 boolean AutoAxesDialog::ClassInitialized = FALSE;
 
-String  AutoAxesDialog::DefaultResources[] = {
+const String AutoAxesDialog::DefaultResources[] = {
 	"*dialogTitle:				AutoAxes Configuration...",
 	"*All.labelString:			All",
 	"*PerAxis.labelString:			Per Axis",

@@ -65,7 +65,7 @@ class AutoAxesDialog : public Dialog
     // Private member data:
     //
     static boolean ClassInitialized;
-    static String  DefaultResources[];
+    const static String  DefaultResources[];
     static int MinWidths[];
 
     static void FontChanged(TextPopup *tp, const char *font, void *callData);
