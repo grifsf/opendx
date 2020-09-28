@@ -36,7 +36,7 @@ class ApplyFileDialog : public FileDialog
 
   protected:
 
-    static String  DefaultResources[];
+     static const String DefaultResources[];
 
     //
     // Call super class and then set the dialog title and the dirMask resource. 

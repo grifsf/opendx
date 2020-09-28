@@ -26,12 +26,8 @@
 
 boolean ApplyFileDialog::ClassInitialized = FALSE;
 
-String ApplyFileDialog::DefaultResources[] =
-{
-	"*helpLabelString:	Apply",
-	"*dialogStyle:		DIALOG_MODELESS",
-        NULL
-};
+ const String ApplyFileDialog::DefaultResources[] =
+{"*helpLabelString:	Apply","*dialogStyle:		DIALOG_MODELESS",NULL};
 
 
 //
