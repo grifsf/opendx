@@ -406,7 +406,8 @@ void ListEditor::replaceListItems(const char **items, int nitems)
 	xmstrings = new XmString[nitems];
 	for (i=0 ; i<nitems ; i++) {
 	    xmstrings[i] = 
-		XmStringCreateLtoR((char*)items[i],XmSTRING_DEFAULT_CHARSET);
+		//XmStringCreateLtoR((char*)items[i],XmSTRING_DEFAULT_CHARSET);
+		XmStringGenerate((XtPointer)items[i],XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 	}
 	XmListAddItems(this->valueList,xmstrings,nitems,1);
 	while (nitems--)

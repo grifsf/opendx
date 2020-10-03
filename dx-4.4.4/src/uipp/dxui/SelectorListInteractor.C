@@ -153,7 +153,8 @@ SelectorListInteractor::reloadListOptions()
     for (i=1; i<=count; i++) {
 	char *optname = (char*)si->getOptionNameString(i);
 	ASSERT(optname);
-	strtab[i-1] = XmStringCreateLtoR(optname, "canvas");
+	//strtab[i-1] = XmStringCreateLtoR(optname, "canvas");
+	strtab[i-1] = XmStringGenerate((XtPointer)optname, "canvas",XmCHARSET_TEXT,0);
 	delete optname;
     }
 

@@ -756,7 +756,8 @@ UIComponent::showBubbleHelp()
     if (!help_msg) return ;
 
     if (XtIsSubclass(help_viewer, xmLabelWidgetClass)) {
-	XmString xmstr = XmStringCreateLtoR (help_msg, "small_normal");
+	//XmString xmstr = XmStringCreateLtoR (help_msg, "small_normal");
+	XmString xmstr = XmStringGenerate ((XtPointer)help_msg, (char*)"small_normal",XmCHARSET_TEXT,0);
 	XtVaSetValues (help_viewer, XmNlabelString, xmstr, NULL);
 	XmStringFree(xmstr);
     } else if (XtIsSubclass(help_viewer, xmTextWidgetClass)) {
@@ -775,7 +776,8 @@ UIComponent::eraseBubbleHelp()
     if (!help_viewer) return ;
 
     if (XtIsSubclass(help_viewer, xmLabelWidgetClass)) {
-	XmString xmstr = XmStringCreateLtoR ("", "small_normal");
+	//XmString xmstr = XmStringCreateLtoR ("", "small_normal");
+	XmString xmstr = XmStringGenerate ((XtPointer)"",(char*)"small_normal",XmCHARSET_TEXT,0);
 	XtVaSetValues (help_viewer, XmNlabelString, xmstr, NULL);
 	XmStringFree(xmstr);
     } else if (XtIsSubclass(help_viewer, xmTextWidgetClass)) {

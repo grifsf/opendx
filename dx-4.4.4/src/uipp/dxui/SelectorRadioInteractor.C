@@ -179,7 +179,8 @@ void SelectorRadioInteractor::reloadMenuOptions()
         XmStringFree (oldstr);
         if (!XtIsSensitive (w)) XtSetSensitive(w, True);
         if ((!cp)||(strcmp(cp, optname))) {
-            xmstr = XmStringCreateLtoR(optname, "canvas");
+            //xmstr = XmStringCreateLtoR(optname, "canvas");
+            xmstr = XmStringGenerate((XtPointer)optname, "canvas",XmCHARSET_TEXT,0);
             XtVaSetValues (w, XmNuserData, i, XmNlabelString, xmstr, NULL);
             XmStringFree (xmstr);
         } else XtVaSetValues (w, XmNuserData, i, NULL);
@@ -192,7 +193,8 @@ void SelectorRadioInteractor::reloadMenuOptions()
     for (i=i; i<=oldOptionCnt; i++) {
         w = (Widget)this->toggleWidgets.getElement(endi);
         if ((i==oldOptionCnt) && (newOptionCnt == 0)) {
-            xmstr = XmStringCreateLtoR("(empty)", "canvas");
+            //xmstr = XmStringCreateLtoR("(empty)", "canvas");
+            xmstr = XmStringGenerate((XtPointer)"(empty)", "canvas",XmCHARSET_TEXT,0);
             XtSetSensitive(w, False);
             XtVaSetValues (w, XmNlabelString, xmstr, NULL);
             XmStringFree(xmstr);
@@ -210,7 +212,8 @@ void SelectorRadioInteractor::reloadMenuOptions()
         char *optname = (char*)si->getOptionNameString(i);
         Boolean setting;
         ASSERT(optname);
-        xmstr = XmStringCreateLtoR(optname, "canvas");
+        //xmstr = XmStringCreateLtoR(optname, "canvas");
+        xmstr = XmStringGenerate((XtPointer)optname, "canvas",XmCHARSET_TEXT,0);
         n = 0;
         XtSetArg(wargs[n], XmNuserData, i); n++;
         XtSetArg(wargs[n], XmNlabelString, xmstr ); n++;

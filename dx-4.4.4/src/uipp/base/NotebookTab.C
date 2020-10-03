@@ -56,7 +56,8 @@ NotebookTab::NotebookTab(const char* name) : UIComponent("notebookTab")
 	NotebookTab::ClassInitialized = TRUE;
     }
     this->set = FALSE;
-    this->label = XmStringCreateLtoR((char*)name, "small_bold");
+    //this->label = XmStringCreateLtoR((char*)name, "small_bold");
+    this->label = XmStringGenerate((XtPointer)name, (char*)"small_bold",XmCHARSET_TEXT,0);
     this->label_str = DuplicateString(name);
     this->dirty = TRUE;
     this->dbl_buffer = 0;
@@ -151,7 +152,8 @@ void NotebookTab::setLabel(const char* str)
     else this->label_str = 0;
     if (this->label) XmStringFree(this->label);
     if (str) {
-	this->label = XmStringCreateLtoR((char*)str, (char*)this->getFont());
+	//this->label = XmStringCreateLtoR((char*)str, (char*)this->getFont());
+	this->label = XmStringGenerate((XtPointer)str, (char*)this->getFont(),XmCHARSET_TEXT,0);
     } else {
 	this->label = 0;
     }

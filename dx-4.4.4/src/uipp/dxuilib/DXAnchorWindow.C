@@ -231,7 +231,8 @@ XmString xmstr;
     const char *cp = "";
     char buf[256];
     strcpy (buf, cp);
-    xmstr = XmStringCreateLtoR (buf, "bold");
+    //xmstr = XmStringCreateLtoR (buf, "bold");
+    xmstr = XmStringGenerate ((XtPointer)buf, "bold",XmCHARSET_TEXT,0);
 
     n = 0;
     XtSetArg (args[n], XmNlabelString, xmstr); n++;
@@ -619,7 +620,8 @@ Arg args[10];
 
     char *tmpstr = new char[1+strlen(c)];
     strcpy (tmpstr, c);
-    XmString xmstr = XmStringCreateLtoR (tmpstr, "bold");
+    //XmString xmstr = XmStringCreateLtoR (tmpstr, "bold");
+    XmString xmstr = XmStringGenerate ((XtPointer)tmpstr, "bold",XmCHARSET_TEXT,0);
     delete tmpstr;
 
     int n = 0;
@@ -782,7 +784,8 @@ int n = 0;
 	ASSERT(font);  //font[0] can be '\0' but font can't be NUL
 	char *tmpmsg = new char[strlen(msg) + 1]; strcpy (tmpmsg, msg);
 	char *tmpfont = new char[strlen(font) + 1]; strcpy (tmpfont, font);
-	XmString xmstr = XmStringCreateLtoR (tmpmsg, tmpfont);
+	//XmString xmstr = XmStringCreateLtoR (tmpmsg, tmpfont);
+	XmString xmstr = XmStringGenerate ((XtPointer)tmpmsg, tmpfont,XmCHARSET_TEXT,0);
 	XtVaSetValues (this->label, XmNlabelString, xmstr, NULL);
 	XmStringFree(xmstr);
 	delete tmpmsg;

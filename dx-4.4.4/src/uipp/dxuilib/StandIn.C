@@ -612,8 +612,10 @@ XmFontList       font_list;
     xrect.width = width - 2*shadow_thickness;
     xrect.height = height - 2*shadow_thickness;
 
-    xmstr1 = XmStringCreateLtoR(str1, "small_canvas");
-    xmstr2 = XmStringCreateLtoR(str2, "small_canvas");
+    //xmstr1 = XmStringCreateLtoR(str1, "small_canvas");
+    xmstr1 = XmStringGenerate((XtPointer)str1, "small_canvas",XmCHARSET_TEXT,0);
+    //xmstr2 = XmStringCreateLtoR(str2, "small_canvas");
+    xmstr2 = XmStringGenerate((XtPointer)str2, "small_canvas",XmCHARSET_TEXT,0);
 
     XmStringExtent(font_list, xmstr1, &str1_width, &str1_height);
     XmStringExtent(font_list, xmstr2, &str2_width, &str2_height);
@@ -1893,7 +1895,8 @@ XmString StandIn::createButtonLabel()
 	sprintf(buffer,"%s:%d",label,this->node->getInstanceNumber());
 	label = buffer;
     } 
-    xms = XmStringCreateLtoR((char*)label, (char*)font);
+    //xms = XmStringCreateLtoR((char*)label, (char*)font);//Why is this cast to a char*?!?!
+    xms = XmStringGenerate((XtPointer)label, (char*)font,XmCHARSET_TEXT,0);
     return xms;
 }
 
@@ -2278,7 +2281,8 @@ void StandIn::createStandIn()
      *** Create input param buttons.
      ***/
 
-    string = XmStringCreateLtoR("", "canvas");
+    //string = XmStringCreateLtoR("", "canvas");
+    string = XmStringGenerate((XtPointer)"", "canvas",XmCHARSET_TEXT,0);
 
     y  = 0;
 #if 0

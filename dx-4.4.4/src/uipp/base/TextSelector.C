@@ -280,7 +280,7 @@ void TextSelector::createTextSelector(Widget parent, XtCallbackProc cbp, XtPoint
 	XtSetArg (args[n], XmNlistSizePolicy, XmCONSTANT); n++;
 	XtSetArg (args[n], XmNvisibleItemCount, MAX_VISIBLE); n++;
 	XtSetArg (args[n], XmNselectionPolicy, XmBROWSE_SELECT); n++;
-	this->popupList = XmCreateScrolledList (rcForm, "itemList", args, n);
+	this->popupList = XmCreateScrolledList (rcForm, (char*)"itemList", args, n);
 	XtVaSetValues (this->popupList, XmNshadowThickness, 0, NULL);
 	XtManageChild (this->popupList);
 	XtAddCallback (this->popupList, XmNsingleSelectionCallback,
@@ -327,7 +327,8 @@ void TextSelector::updateList()
     ListIterator it(this->item_list);
     char* name;
     while ( (name = (char*)it.getNext()) ) {
-	strTable[next++] = XmStringCreateLtoR (name, "bold");
+	//strTable[next++] = XmStringCreateLtoR (name, "bold");
+	strTable[next++] = XmStringGenerate ((XtPointer)name,(char*)"bold",XmCHARSET_TEXT,0);
     }
 
     XtVaSetValues (this->popupList, XmNvisibleItemCount, 

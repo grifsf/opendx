@@ -317,9 +317,8 @@ void PushMenu(Widget    outputWidget,
 	{
 	    XtSetArg(args[0], XmNbackground, COLOR(menu, "#7e7eb4b4b4b4")); 
 	    xmstr =
-		XmStringCreateLtoR
-		    (userdata->historylist->tail->label,
-		     XmSTRING_DEFAULT_CHARSET);
+		//XmStringCreateLtoR(userdata->historylist->tail->label,XmSTRING_DEFAULT_CHARSET);
+		XmStringGenerate((XtPointer)userdata->historylist->tail->label,XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 	    XtSetArg(args[1], XmNlabelString, xmstr);
 	    button =
 		XtCreateManagedWidget

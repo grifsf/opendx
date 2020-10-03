@@ -127,7 +127,8 @@ void VPEPostIt::setLabel(const char *newStr, boolean)
 	else break;
     }
     char *font = DuplicateString(this->getFont());
-    this->labelString = XmStringCreateLtoR (filtered, font);
+    //this->labelString = XmStringCreateLtoR (filtered, font);
+    this->labelString = XmStringGenerate ((XtPointer)filtered, font,XmCHARSET_TEXT,0);
     delete filtered;
     delete font;
 }

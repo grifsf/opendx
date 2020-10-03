@@ -110,7 +110,8 @@ Widget SaveImageDialog::createControls (Widget parent)
 	XmNleftOffset,		2,
 	XmNrightOffset,		2,
     NULL);
-    XmString xmstr = XmStringCreateLtoR ("Output file name:", "small_bold");
+    //XmString xmstr = XmStringCreateLtoR ("Output file name:", "small_bold");
+    XmString xmstr = XmStringGenerate ((XtPointer)"Output file name:", "small_bold",XmCHARSET_TEXT,0);
     XtVaCreateManagedWidget ("nameLabel",
 	xmLabelWidgetClass,	body,
 	XmNlabelString,		xmstr,

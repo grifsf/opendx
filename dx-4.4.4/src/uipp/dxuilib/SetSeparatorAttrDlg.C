@@ -339,7 +339,8 @@ int i,n;
 	strcpy (btn_name, btn_names[i]);
 	char *color_value = new char[1+strlen(color_values[i])];
 	strcpy (color_value, color_values[i]);
-	XmString xmstr = XmStringCreateLtoR (btn_name, "bold");
+	//XmString xmstr = XmStringCreateLtoR (btn_name, "bold");
+	XmString xmstr = XmStringGenerate ((XtPointer)btn_name, "bold",XmCHARSET_TEXT,0);
 
 	n = 0;
 	XtSetArg (args[n], XmNlabelString, xmstr); n++;

@@ -210,7 +210,8 @@ XmString oldXmStr = NULL;
         XtVaSetValues (this->getRootWidget(), XmNresizePolicy, XmRESIZE_ANY, NULL);
 
     //this->WorkSpaceComponent::setLabelResource(this->toggleButton, labelString);
-    XmString xmstr = XmStringCreateLtoR (filtered, "canvas");
+    //XmString xmstr = XmStringCreateLtoR (filtered, "canvas");
+    XmString xmstr = XmStringGenerate ((XtPointer)filtered, "canvas",XmCHARSET_TEXT,0);
     XtVaSetValues (this->toggleButton, XmNlabelString, xmstr, NULL);
     XmStringFree(xmstr);
     delete filtered;

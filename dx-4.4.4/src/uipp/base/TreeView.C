@@ -278,7 +278,8 @@ void TreeView::paint()
 	XtDestroyWidget(lab);
     }
     if (this->data_model) {
-	XmString tmp = XmStringCreateLtoR("Yy", (char*)this->getFont());
+	//XmString tmp = XmStringCreateLtoR("Yy", (char*)this->getFont());
+	XmString tmp = XmStringGenerate((XtPointer)"Yy", (char*)this->getFont(),XmCHARSET_TEXT,0);
 	XmStringExtent (TreeView::FontList, tmp, &unused, &strHeight);
 	XmStringFree(tmp);
 
@@ -372,7 +373,8 @@ void TreeView::paintNode(TreeNode* node, int& string_count, int level, int strHe
 	level_incr = 0;
     } else {
 	const char* str = node->getString();
-	XmString xmstr = XmStringCreateLtoR((char*)str, (char*)this->getFont());
+	//XmString xmstr = XmStringCreateLtoR((char*)str, (char*)this->getFont());
+	XmString xmstr = XmStringGenerate((XtPointer)str, (char*)this->getFont(),XmCHARSET_TEXT,0);
 	if (paint_it) {
 	    int sx;
 	    if (node->hasChildren())
@@ -864,7 +866,8 @@ void TreeView::toggleIBeam(boolean restart)
     ASSERT(this->matched);
     char* match_str = DuplicateString(this->matched->getString());
     match_str[this->typing_count] = '\0';
-    XmString xmstr = XmStringCreateLtoR(match_str, (char*)this->getFont());
+    //XmString xmstr = XmStringCreateLtoR(match_str, (char*)this->getFont());
+    XmString xmstr = XmStringGenerate((XtPointer)match_str, (char*)this->getFont(),XmCHARSET_TEXT,0);
     Dimension strWidth, strHeight;
     XmStringExtent (TreeView::FontList, xmstr, &strWidth, &strHeight);
     int ibeam_width = 7;

@@ -204,7 +204,8 @@ void SelectorInteractor::reloadMenuOptions()
 	    char *optname = (char*)si->getOptionNameString(i);
 	    ASSERT(optname);
 	    Widget button;
-	    xmstr = XmStringCreateLtoR(optname, "canvas");
+	    //xmstr = XmStringCreateLtoR(optname, "canvas");
+	    xmstr = XmStringGenerate((XtPointer)optname, "canvas",XmCHARSET_TEXT,0);
 	    n = 0;
 	    XtSetArg(wargs[n], XmNuserData, i); n++;
 	    XtSetArg(wargs[n], XmNlabelString, xmstr ); n++;
@@ -250,7 +251,8 @@ void SelectorInteractor::reloadMenuOptions()
 	}
     } else {
 	n = 0;
-	xmstr = XmStringCreateLtoR("(empty)", "canvas");
+	//xmstr = XmStringCreateLtoR("(empty)", "canvas");
+	xmstr = XmStringGenerate((XtPointer)"(empty)", "canvas",XmCHARSET_TEXT,0);
 	XtSetArg(wargs[n], XmNlabelString, xmstr); n++;
 	sbutton = XmCreatePushButton(this->pulldown, "(empty)", wargs, n);
 	XtManageChild(sbutton);
@@ -294,7 +296,8 @@ void SelectorInteractor::reloadMenuOptions()
 	// For the sake of dgux, set the labelString to "", because it defaults
 	// to "OptionLabel" unlike everywhere else.
 	//
-	xmstr = XmStringCreateLtoR ("", "canvas");
+	//xmstr = XmStringCreateLtoR ("", "canvas");
+	xmstr = XmStringGenerate ((XtPointer)"", "canvas",XmCHARSET_TEXT,0);
 	Widget labelgadget = XmOptionLabelGadget (this->optionMenu);
 	XtVaSetValues (labelgadget, 
 	    XmNlabelString, xmstr,

@@ -382,7 +382,8 @@ Arg args[20];
     XtAddCallback (this->resize_arrow, XmNdisarmCallback, (XtCallbackProc)
 	SetDecoratorTextDialog_EndPosCB, (XtPointer)this);
 
-    XmString xmstr = XmStringCreateLtoR ("margin\nposition", "small_bold");
+    //XmString xmstr = XmStringCreateLtoR ("margin\nposition", "small_bold");
+    XmString xmstr = XmStringGenerate ((XtPointer)"margin\nposition", "small_bold",XmCHARSET_TEXT,0);
     n = 0;
     XtSetArg (args[n], XmNbottomAttachment, XmATTACH_WIDGET); n++;
     XtSetArg (args[n], XmNbottomWidget, sep1); n++;
@@ -549,7 +550,8 @@ int i,n;
         XtConvertAndStore(parent, XmRString, &from, XmRPixel, &toinout);
 #	endif
 
-	XmString xmstr = XmStringCreateLtoR (btn_name, "bold");
+	//XmString xmstr = XmStringCreateLtoR (btn_name, "bold");
+	XmString xmstr = XmStringGenerate ((XtPointer)btn_name, "bold",XmCHARSET_TEXT,0);
 
 	n = 0;
 #	if SHOW_IT_NOW
@@ -609,7 +611,8 @@ char *font_names[] = {
 
     for (i=0; i<XtNumber(btn_names); i++) {
 #	if SHOW_IT_NOW
-	XmString xmstr = XmStringCreateLtoR (btn_names[i], font_names[i]);
+	//XmString xmstr = XmStringCreateLtoR (btn_names[i], font_names[i]);
+	XmString xmstr = XmStringGenerate ((XtPointer)btn_names[i], font_names[i],XmCHARSET_TEXT,0);
 #	endif
 
 	n = 0;
@@ -1136,7 +1139,8 @@ int i;
     //
     // Chop the input into individual lines and measure each one.
     //
-    XmString str1 = XmStringCreateLtoR (src, font);
+    //XmString str1 = XmStringCreateLtoR (src, font);
+    XmString str1 = XmStringGenerate ((XtPointer)src, font,XmCHARSET_TEXT,0);
     boolean retVal = this->measureLines(str1, font);
     int max_pixel_len = XmStringWidth (xmfl, str1);
     XmStringFree(str1);
@@ -1146,8 +1150,10 @@ int i;
     //
     // Find the size of a ' ' character.
     //
-    XmString s1 = XmStringCreateLtoR ("H i", font);
-    XmString s2 = XmStringCreateLtoR ("H  i", font);
+    //XmString s1 = XmStringCreateLtoR ("H i", font);
+    XmString s1 = XmStringGenerate ((XtPointer)"H i", font,XmCHARSET_TEXT,0);
+    //XmString s2 = XmStringCreateLtoR ("H  i", font);
+    XmString s2 = XmStringGenerate ((XtPointer)"H  i", font,XmCHARSET_TEXT,0);
     Dimension w1 = XmStringWidth (xmfl, s1);
     Dimension w2 = XmStringWidth (xmfl, s2);
     XmStringFree(s1);
@@ -1326,7 +1332,8 @@ int i;
 	    this->kern_lines[i][0]= '\0';
 	}
 
-	XmString xmstr = XmStringCreateLtoR (this->kern_lines[i], font);
+  //XmString xmstr = XmStringCreateLtoR (this->kern_lines[i], font);
+	XmString xmstr = XmStringGenerate ((XtPointer)this->kern_lines[i], font,XmCHARSET_TEXT,0);
 	this->kern_lengths[i] = XmStringWidth (xmfl, xmstr);
 	XmStringFree(xmstr);
     }

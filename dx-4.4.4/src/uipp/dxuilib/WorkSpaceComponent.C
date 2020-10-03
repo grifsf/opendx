@@ -388,7 +388,8 @@ WorkSpaceComponent::SetLabelResource (Widget w, const char *labelString)
      * Replace "\n" character sequences with the '\n' character.
      */
     filtered_string = WorkSpaceComponent::FilterLabelString(labelString);
-    string = XmStringCreateLtoR((char*)filtered_string, "canvas");
+    //string = XmStringCreateLtoR((char*)filtered_string, "canvas");
+    string = XmStringGenerate((XtPointer)filtered_string, "canvas",XmCHARSET_TEXT,0);
 
     mw = mh = mt = mb = ml = mr = ht = st = 0;
     XtVaGetValues (w, XmNfontList, &xmfl, XmNmarginWidth, &mw,

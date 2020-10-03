@@ -355,7 +355,8 @@ GetSetConversionDialog::setActiveEditor(EditorWindow *ew)
 	return ;
     }
 
-    XmString xmstr = XmStringCreateLtoR (cp, "bold");
+    //XmString xmstr = XmStringCreateLtoR (cp, "bold");
+    XmString xmstr = XmStringGenerate ((XtPointer)cp, "bold",XmCHARSET_TEXT,0);
     delete cp;
     if (!XmListItemExists(this->list, xmstr))
 	this->update();
@@ -516,7 +517,8 @@ GetSetConversionDialog::update()
 
     if ((gets) || (sets)) {
 	char *cp = GetSetConversionDialog::GetFileName(theDXApplication->network);
-	XmString xmstr = XmStringCreateLtoR (cp, "bold");
+	//XmString xmstr = XmStringCreateLtoR (cp, "bold");
+	XmString xmstr = XmStringGenerate ((XtPointer)cp, "bold",XmCHARSET_TEXT,0);
 	delete cp;
 	XmListAddItem (this->list, xmstr, 1);
 	XmStringFree(xmstr);
@@ -534,7 +536,8 @@ GetSetConversionDialog::update()
 	ASSERT (net);
 	this->referenced_macros->appendElement((const void*)md);
 	char *cp = GetSetConversionDialog::GetFileName (net);
-	XmString xmstr = XmStringCreateLtoR (cp, "bold");
+	//XmString xmstr = XmStringCreateLtoR (cp, "bold");
+	XmString xmstr = XmStringGenerate ((XtPointer)cp, "bold",XmCHARSET_TEXT,0);
 	delete cp;
 	XmListAddItemUnselected (this->list, xmstr, 0);
 	XmStringFree(xmstr);
@@ -577,7 +580,8 @@ GetSetConversionDialog::updateNetName(Network *net)
 	XmNrecomputeSize, &oldRecomp,
     NULL);
 
-    XmString xmstr = XmStringCreateLtoR (cp, "bold");
+    //XmString xmstr = XmStringCreateLtoR (cp, "bold");
+    XmString xmstr = XmStringGenerate ((XtPointer)cp, "bold",XmCHARSET_TEXT,0);
     delete cp;
 
     Boolean recomp = True;
@@ -607,7 +611,8 @@ GetSetConversionDialog::updateNetName(Network *net)
 	sprintf (msg, "  macro contains:\n%4d Get(s)\n%4d Set(s)", gcnt, scnt);
     else
 	sprintf (msg, "network contains:\n%4d Get(s)\n%4d Set(s)", gcnt, scnt);
-    xmstr = XmStringCreateLtoR (msg, "bold");
+    //xmstr = XmStringCreateLtoR (msg, "bold");
+    xmstr = XmStringGenerate ((XtPointer)msg, "bold",XmCHARSET_TEXT,0);
 
     XtVaSetValues (this->net_name_label, 
 	XmNlabelString, xmstr, 
@@ -855,7 +860,8 @@ char *cp;
     if (first) cp = "Find First";
     else cp = "Find Next";
 
-    XmString xmstr = XmStringCreateLtoR (cp, "bold");
+    //XmString xmstr = XmStringCreateLtoR (cp, "bold");
+    XmString xmstr = XmStringGenerate ((XtPointer)cp, "bold",XmCHARSET_TEXT,0);
     XtVaSetValues (this->find_next_btn, 
 	XmNuserData,  (first?FIND_FIRST: FIND_NEXT),
 	XmNlabelString, xmstr, 

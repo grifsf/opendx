@@ -203,7 +203,8 @@ Widget RenderingOptionsDialog::createDialog(Widget parent)
 	NULL);
 
 #if defined(aviion)
-    XmString xmstr = XmStringCreateLtoR ("", "bold");
+    //XmString xmstr = XmStringCreateLtoR ("", "bold");
+    XmString xmstr = XmStringGenerate((XtPointer)"", "bold",XmCHARSET_TEXT,0);
 #endif
     Widget upPulldown = this->createUpPulldown(dialog);
     Widget buttonUpOptionMenu = this->buttonUpOptionMenu =

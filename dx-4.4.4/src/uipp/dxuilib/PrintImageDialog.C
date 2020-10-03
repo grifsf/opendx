@@ -82,7 +82,8 @@ Widget PrintImageDialog::createControls (Widget parent)
 	XmNleftOffset,		2,
 	XmNrightOffset,		2,
     NULL);
-    XmString xmstr = XmStringCreateLtoR ("Print command:", "small_bold");
+    //XmString xmstr = XmStringCreateLtoR ("Print command:", "small_bold");
+    XmString xmstr = XmStringGenerate ((XtPointer)"Print command:", "small_bold",XmCHARSET_TEXT,0);
     XtVaCreateManagedWidget ("nameLabel",
 	xmLabelWidgetClass,     body,
 	XmNlabelString,         xmstr,

@@ -19,11 +19,14 @@
 
 Widget TimedInfoDialog::createDialog (Widget parent)
 {
-    XmString message = XmStringCreateLtoR (this->msg, "bold");
+    //XmString message = XmStringCreateLtoR (this->msg, "bold");
+    XmString message = XmStringGenerate ((XtPointer)this->msg, "bold",XmCHARSET_TEXT,0);
 #if defined(alphax)
-    XmString title = XmStringCreateLtoR (this->title, XmSTRING_DEFAULT_CHARSET);
+    //XmString title = XmStringCreateLtoR (this->title, XmSTRING_DEFAULT_CHARSET);
+    XmString title = XmStringGenerate ((XtPointer)this->title, XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 #else
-    XmString title = XmStringCreateLtoR (this->title, "bold");
+    //XmString title = XmStringCreateLtoR (this->title, "bold");
+    XmString title = XmStringGenerate ((XtPointer)this->title, "bold",XmCHARSET_TEXT,0);
 #endif
 
     int n = 0;
@@ -52,9 +55,11 @@ void TimedInfoDialog::setTitle (const char *title)
     Widget w = this->getRootWidget();
     if ((w) && (this->title)) {
 #if defined(alphax)
-	XmString xmstr = XmStringCreateLtoR (this->title, XmSTRING_DEFAULT_CHARSET);
+	//XmString xmstr = XmStringCreateLtoR (this->title, XmSTRING_DEFAULT_CHARSET);
+	XmString xmstr = XmStringGenerate ((XtPointer)this->title, XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 #else
-	XmString xmstr = XmStringCreateLtoR (this->title, "bold");
+	//XmString xmstr = XmStringCreateLtoR (this->title, "bold");
+	XmString xmstr = XmStringGenerate ((XtPointer)this->title, "bold",XmCHARSET_TEXT,0);
 #endif
 	XtVaSetValues (w, XmNdialogTitle, xmstr, NULL);
 	XmStringFree(xmstr);
@@ -67,7 +72,8 @@ void TimedInfoDialog::setMessage (const char *msg)
     this->msg = DuplicateString(msg);
     Widget w = this->getRootWidget();
     if ((w) && (this->msg)) {
-	XmString xmstr = XmStringCreateLtoR (this->msg, "bold");
+	//XmString xmstr = XmStringCreateLtoR (this->msg, "bold");
+	XmString xmstr = XmStringGenerate ((XtPointer)this->msg, "bold",XmCHARSET_TEXT,0);
 	XtVaSetValues (w, XmNmessageString, xmstr, NULL);
 	XmStringFree(xmstr);
     }

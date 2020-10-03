@@ -1027,7 +1027,8 @@ void PageSelector::updateList()
     while ( (pt = (PageTab*)it.getNext()) ) {
 	const char* name = pt->getGroupName();
 	if (!name) continue;
-	strTable[next] = XmStringCreateLtoR ((char*)name, "small_bold");
+	//strTable[next] = XmStringCreateLtoR ((char*)name, "small_bold");
+	strTable[next] = XmStringGenerate ((XtPointer)name, "small_bold",XmCHARSET_TEXT,0);
         Dimension strWidth = XmStringWidth(xmf, strTable[next]);
 	maxWidth = (maxWidth>strWidth?maxWidth:strWidth);
 	next++;

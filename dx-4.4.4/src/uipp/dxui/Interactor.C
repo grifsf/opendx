@@ -222,7 +222,8 @@ XmString oldXmStr = NULL;
 
 #if !defined(XMSTRING_COMPARE_IS_BROKEN)
     // For efficiency only
-    XmString tmpXmStr = XmStringCreateLtoR (filtered, "canvas");
+    //XmString tmpXmStr = XmStringCreateLtoR (filtered, "canvas");
+    XmString tmpXmStr = XmStringGenerate ((XtPointer)filtered, "canvas",XmCHARSET_TEXT,0);
     if (XmStringCompare (tmpXmStr, oldXmStr)) {
 	XmStringFree (tmpXmStr);
 	if (filtered) delete filtered;

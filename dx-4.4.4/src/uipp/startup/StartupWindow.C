@@ -745,7 +745,8 @@ boolean set_filter = FALSE;
     for(int i=0; i<strlen(dirspec); i++)
         if(dirspec[i] == '/') dirspec[i] = '\\';
 #endif
-	XmString xmstr = XmStringCreateLtoR (dirspec, "bold");
+	//XmString xmstr = XmStringCreateLtoR (dirspec, "bold");
+	XmString xmstr = XmStringGenerate ((XtPointer)dirspec, "bold",XmCHARSET_TEXT,0);
 #ifdef DXD_WIN
 	Widget filt = XmFileSelectionBoxGetChild(fsb, XmDIALOG_FILTER_TEXT);
 	XmTextSetString(filt, dirspec);

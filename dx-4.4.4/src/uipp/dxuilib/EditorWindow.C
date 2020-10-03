@@ -7542,7 +7542,8 @@ void EditorWindow::setUndoActivation()
     } else {
 	this->undoCmd->deactivate();
     }
-    XmString xmstr = XmStringCreateLtoR (button_label, "bold");
+    //XmString xmstr = XmStringCreateLtoR (button_label, "bold");
+    XmString xmstr = XmStringGenerate ((XtPointer)button_label, "bold",XmCHARSET_TEXT,0);
     XtVaSetValues (this->undoOption->getRootWidget(), XmNlabelString, xmstr, NULL);
     XmStringFree(xmstr);
 }

@@ -438,7 +438,8 @@ const char *cp;
 	cp = this->getLabelValue();
 
 	if ((this->customPart)&&(this->labelString)) {
-	    XmString xmstr = XmStringCreateLtoR ((char *)cp, this->font);
+	    //XmString xmstr = XmStringCreateLtoR ((char *)cp, this->font);
+	    XmString xmstr = XmStringGenerate ((XtPointer)cp, (char*)this->font,XmCHARSET_TEXT,0);
 
 	    Dimension   mw,mh,mt,mb,ml,mr; // margin sizes
 	    Dimension   ht,st; // thicknesses
@@ -492,7 +493,8 @@ XmString oldXmStr = NULL;
 	else break;
     }
     for (i=0; filtered[i]!='\0'; i++) if (filtered[i]=='\n') linesNew++;
-    this->labelString = XmStringCreateLtoR (filtered, this->font);
+    //this->labelString = XmStringCreateLtoR (filtered, this->font);
+    this->labelString = XmStringGenerate ((XtPointer)filtered, (char*)this->font,XmCHARSET_TEXT,0);
     delete filtered;
 
     if (!this->customPart) return ;

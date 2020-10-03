@@ -77,13 +77,14 @@ Widget TimedMessage::createDialog(Widget parent)
 		XmNlabelType, XmPIXMAP,
 		NULL);
     } else {
-	XmString xmstr = XmStringCreate("OK", XmSTRING_DEFAULT_CHARSET);
+	XmString xmstr = XmStringCreate((char*)"OK", XmSTRING_DEFAULT_CHARSET);//resolved warning here
 	XtVaSetValues(this->ok, XmNlabelString,xmstr, NULL);
         XmStringFree(xmstr);
     }
 	
     XmString messageString = 
-	XmStringCreateLtoR(this->message, XmSTRING_DEFAULT_CHARSET);
+	//XmStringCreateLtoR(this->message, XmSTRING_DEFAULT_CHARSET);
+	XmStringGenerate((XtPointer)this->message, XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 
     //
     // Create the label 

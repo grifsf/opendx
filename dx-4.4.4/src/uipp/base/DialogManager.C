@@ -309,7 +309,8 @@ void DialogManager::post(Widget		parent,
     //
     if (message)
     {
-	string = XmStringCreateLtoR(message, XmSTRING_DEFAULT_CHARSET);
+	//string = XmStringCreateLtoR(message, XmSTRING_DEFAULT_CHARSET);
+	string = XmStringGenerate((XtPointer)message, XmSTRING_DEFAULT_CHARSET,XmCHARSET_TEXT,0);
 	XtVaSetValues(dialog, XmNmessageString, string, NULL);
 	XmStringFree(string);
     }
